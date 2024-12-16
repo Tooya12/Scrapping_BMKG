@@ -1,0 +1,2862 @@
+
+<!DOCTYPE html>
+
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="id"> <!--<![endif]-->
+<head>
+<title>Prakiraan Cuaca Kecamatan Ciomas (Kabupaten Bogor - Provinsi Jawa Barat) | BMKG</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Prakiraan cuaca Kecamatan Ciomas (Kabupaten Bogor - Provinsi Jawa Barat) pada tanggal 16 Desember 2024, pukul 00:00 WIB, cuaca diprakirakan berawan tebal dengan suhu 22°C dan kelembapan 94%" name="description"/>
+<meta content="Informasi Cuaca, Citra Satelit Cuaca, Citra Radar, Cuaca Penerbangan, Cuaca Aktual, Cuaca Maritim, Cuaca Pelayaran, Iklim, Kualitas Udara, Gempabumi, Tsunami, Tanda Waktu, Petir" name="keywords"/>
+<meta content="BMKG" name="author"/>
+<meta content="website" property="og:type">
+<meta content="BMKG | Badan Meteorologi, Klimatologi, dan Geofisika" property="og:site_name"/>
+<meta content="Prakiraan Cuaca Kecamatan Ciomas (Kabupaten Bogor - Provinsi Jawa Barat) | BMKG" property="og:title"/>
+<meta content="http://www.bmkg.go.id/asset/img/logo/bg_BMKG.jpg" property="og:image">
+<meta content="Prakiraan cuaca Kecamatan Ciomas (Kabupaten Bogor - Provinsi Jawa Barat) pada tanggal 16 Desember 2024, pukul 00:00 WIB, cuaca diprakirakan berawan tebal dengan suhu 22°C dan kelembapan 94%" property="og:description"/>
+<meta content="" property="og:url"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="@infoBMKG" name="twitter:site"/>
+<meta content="@infoBMKG" name="twitter:creator"/>
+<meta content="Prakiraan Cuaca Kecamatan Ciomas (Kabupaten Bogor - Provinsi Jawa Barat) | BMKG" name="twitter:title"/>
+<meta content="Prakiraan cuaca Kecamatan Ciomas (Kabupaten Bogor - Provinsi Jawa Barat) pada tanggal 16 Desember 2024, pukul 00:00 WIB, cuaca diprakirakan berawan tebal dengan suhu 22°C dan kelembapan 94%" name="twitter:description"/>
+<meta content="http://www.bmkg.go.id/asset/img/logo/bg_BMKG.jpg" name="twitter:image"/>
+<meta content="app-id=1114372539" name="apple-itunes-app"/>
+<meta content="app-id=com.Info_BMKG" name="google-play-app"/>
+<link href="../asset/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="../asset/img/favicon-60@3x.png" rel="apple-touch-icon">
+<link href="../asset/img/favicon-60.png" rel="apple-touch-icon" sizes="60x60"/>
+<link href="../asset/img/favicon-60@2x.png" rel="apple-touch-icon" sizes="120x120"/>
+<link href="../asset/img/favicon-60@3x.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="../asset/img/favicon-76.png" rel="apple-touch-icon" sizes="76x76"/>
+<link href="../asset/img/favicon-76@2x.png" rel="apple-touch-icon" sizes="152x152"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Roboto:300,300i,400,400i,700,700i" rel="stylesheet"/>
+<link href="../asset/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="../asset/plugins/fancybox/source/jquery.fancybox.min.css" rel="stylesheet"/>
+<link href="../asset/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="../asset/css/thunderstorm.css" rel="stylesheet"/>
+<link href="../asset/css/thrustfault.css" rel="stylesheet"/>
+<script type="text/javascript">function showLocalTime(a,b,c,d){if(document.getElementById&&document.getElementById(a)){this.container=document.getElementById(a),this.displayversion=d;var e="server-php"==b?'<? print date("F d, Y H:i:s", time())?>':"server-ssi"==b?'<!--#config timefmt="%B %d, %Y %H:%M:%S"--><!--#echo var="DATE_LOCAL" -->':"12/15/2024 11:19:22 PM";this.localtime=this.serverdate=new Date(e),this.localtime.setTime(this.serverdate.getTime()+60*c*1e3),this.updateTime(),this.updateContainer()}}function formatField(a,b){if("undefined"!=typeof b){var c=a>12?a-12:a;return 0==c?12:c}return a<=9?"0"+a:a}var minggutxt=["Minggu","Senin","Selasa","Rabu","Kamis","Jumat","Sabtu"],weekdaystxt=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],bulantxt=["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"],monthstxt=["January","February","March","April","May","June","July","August","September","October","November","December"];showLocalTime.prototype.updateTime=function(){var a=this;this.localtime.setSeconds(this.localtime.getSeconds()+1),setTimeout(function(){a.updateTime()},1e3)},showLocalTime.prototype.updateContainer=function(){var a=this;if("long"==this.displayversion)this.container.innerHTML=this.localtime.toLocaleString();else{var b=this.localtime.getHours(),c=this.localtime.getMinutes(),d=this.localtime.getSeconds(),k=(this.localtime.getDate(),this.localtime.getUTCDate(),minggutxt[this.localtime.getDay()],bulantxt[this.localtime.getMonth()],weekdaystxt[this.localtime.getUTCDay()],monthstxt[this.localtime.getUTCMonth()],b+1);k>=24&&(k-=24);var l=b+2;l>=24&&(l-=24);var m=b-7;m<0&&(m+=24);this.container.innerHTML="<span class='hari-digit hidden-sm'><a href='https://time.bmkg.go.id/' target='_blank'>Standar Waktu Indonesia</a> </span><span class='FontDigit'>"+formatField(b)+":"+formatField(c)+":"+formatField(d)+" WIB / </span><span class='FontDigit'>"+formatField(m)+":"+formatField(c)+":"+formatField(d)+" UTC</span>"}setTimeout(function(){a.updateContainer()},1e3)};
+	</script>
+<script type="text/javascript">
+		if(window.top!==window.self || top != self){ window.top.location=window.self.location;top.location.replace(location);}
+	</script>
+</link></meta></meta></head>
+<body class="header-fixed header-fixed-space bmkg-page">
+<div class="wrapper"> <div class="header-v8 header-sticky">
+<div class="blog-topbar">
+<div class="topbar-search-block">
+<div class="container">
+<form action="">
+<input class="form-control" placeholder="Pencarian..." type="text"/>
+<div class="search-close"><i class="icon-close"></i></div>
+</form>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-sm-4 col-xs-12">
+<!--<i class="fa fa-search search-btn pull-right hidden-sm hidden-md hidden-lg"></i>-->
+<div class="pull-right topbar-time bahasa hidden-sm hidden-md hidden-lg">
+<a class="active" href="?AreaID=5009415&amp;Prov=Jawa_Barat&amp;lang=ID"><span class="id"></span>ID</a>
+<a href="?AreaID=5009415&amp;Prov=Jawa_Barat&amp;lang=EN"><span class="en"></span>EN</a>
+</div>
+<div class="topbar-time hari-digit hidden-xs">Minggu, 15 Desember 2024</div>
+<div class="topbar-toggler"><span class="fa fa-angle-down"></span></div>
+<ul class="topbar-list topbar-menu">
+<li class="hidden-sm hidden-md hidden-lg hari-digit">Minggu, 15 Desember 2024</li>
+<li class="hidden-sm hidden-md hidden-lg" id="timecontainer1"></li>
+<script type="text/javascript">new showLocalTime("timecontainer1", "server-asp", 0, "short")</script>
+</ul>
+</div>
+<div class="col-sm-8 col-xs-12 clearfix">
+<!--<i class="fa fa-search search-btn pull-right hidden-xs"></i>-->
+<div class="pull-right topbar-time bahasa hidden-xs">
+<a class="active" href="?AreaID=5009415&amp;Prov=Jawa_Barat&amp;lang=ID"><span class="id"></span>ID</a>
+<a href="?AreaID=5009415&amp;Prov=Jawa_Barat&amp;lang=EN"><span class="en"></span>EN</a>
+</div>
+<div class="topbar-time pull-right hidden-xs" id="timecontainer"></div>
+<script type="text/javascript">new showLocalTime("timecontainer", "server-asp", 0, "short")</script>
+</div>
+</div>
+</div>
+</div>
+<div class="navbar mega-menu" role="navigation">
+<div class="container">
+<div class="res-container">
+<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<div class="navbar-brand">
+<a href="../?lang=ID">
+<img alt="Logo" src="../asset/img/logo/logo-bmkg.png"/>
+<span class="hidden-xs hidden-md">Badan Meteorologi, Klimatologi, dan Geofisika</span>
+</a>
+<span class="hidden-xs hidden-md slogan">Cepat, Tepat, Akurat, Luas, dan Mudah Dipahami</span>
+</div>
+</div> <div class="collapse navbar-collapse navbar-responsive-collapse">
+<div class="res-container">
+<ul class="nav navbar-nav">
+<li class="dropdown mega-menu-fullwidth home">
+<a class="dropdown-toggle" data-toggle="dropdown" href="../javascript:void(0);">
+									Profil
+								</a>
+<ul class="dropdown-menu">
+<li>
+<div class="mega-menu-content">
+<div class="container">
+<div class="row">
+<div class="col-md-3 md-margin-bottom-30">
+<h2>Profil</h2>
+<ul class="dropdown-link-list">
+<li><a href="../profil/?p=sejarah">Sejarah</a></li>
+<li><a href="../profil/?p=visi-misi">Visi dan Misi</a></li>
+<li><a href="../profil/?p=tugas-fungsi">Tugas dan Fungsi</a></li>
+<li><a href="../profil/?p=struktur-organisasi">Struktur Organisasi</a></li>
+<li><a href="../profil/pejabat-bmkg-pusat.bmkg">Pejabat BMKG Pusat</a></li>
+<li><a href="../profil/balai-besar-mkg.bmkg">Balai Besar MKG</a></li>
+<li><a href="../profil/stasiun-upt.bmkg">Stasiun MKG</a></li>
+<li><a href="../profil/?p=logo-bmkg">Logo BMKG</a></li>
+<li><a href="../profil/sumber-daya-manusia.bmkg">Sumber Daya Manusia</a></li>
+</ul>
+</div>
+<div class="col-md-3 md-margin-bottom-30">
+<h2>Publikasi</h2>
+<ul class="dropdown-link-list">
+<li><a href="../press-release/">Siaran Pers</a></li>
+<li><a href="../pidato/">Pidato Pimpinan BMKG</a></li>
+<li><a href="https://bmkg.go.id/tag/?tag=international-activities&amp;lang=ID">Kegiatan Internasional</a></li>
+<li><a href="../artikel/">Artikel</a></li>
+<li><a href="../profil/?p=majalah">Majalah</a></li>
+<li><a href="https://youtube.com/@InfoBMKGIndonesia" target="_blank">Audio dan Video</a></li>
+<li><a href="../profil/?p=pameranvirtual">Pameran Virtual</a></li>
+<li><a href="http://puslitbang.bmkg.go.id/jmg" target="_blank">Jurnal</a></li>
+<li><a href="http://pusdiklat.bmkg.go.id/" target="_blank">E-Learning</a></li>
+<li><a href="../profil/?p=brosur-leaflet-booklet">Brosur / Leaflet / Booklet</a></li>
+<li><a href="../profil/proyek-perubahan.bmkg">Proyek Perubahan</a></li>
+</ul>
+</div>
+<div class="col-md-3 md-margin-bottom-30">
+<h2>Informasi Publik</h2>
+<ul class="dropdown-link-list">
+<li><a href="http://ppid.bmkg.go.id/informasi-publik-yang-wajib-disediakan-dan-diumumkan-secara-berkala/" target="_blank">Berkala</a></li>
+<li><a href="http://ppid.bmkg.go.id/informasi-publik-yang-wajib-tersedia-setiap-saat/" target="_blank">Setiap Saat</a></li>
+<li><a href="http://ppid.bmkg.go.id/informasi-publik-yang-wajib-diumumkan-secara-serta-merta/" target="_blank">Serta Merta</a></li>
+<li><a href="../profil/?p=transparansi-kinerja">Transparansi Kinerja BMKG</a></li>
+<li><a href="https://bmkg.go.id/profil/?p=informasi-yang-dikecualikan">Informasi yang Dikecualikan</a></li>
+<li><a href="https://drive.google.com/file/d/1L-1uCaO7cGUpbVRha5igP-ZlsS7xymay/view?usp=sharing">Daftar Informasi Publik</a></li>
+<!--li><a href="https://ppid.bmkg.go.id/sop">SOP</a></li>
+															<li><a href="https://drive.google.com/file/d/1Prb9Yymhn9NUsxhXLqtpXgHT8BMpD7rx/view">Agenda Pimpinan</a></li-->
+<!--<li><a href="../profil/?p=dipa">DIPA</a></li>
+															<li><a href="../profil/?p=lakip">LAKIP</a></li>
+															<li><a href="../profil/?p=rencana-strategis">Rencana Strategis</a></li>
+															<li><a href="../profil/?p=rencana-kerja">Rencana Kerja</a></li>
+															<li><a href="../profil/?p=laporan-keuangan">Laporan Keuangan</a></li>
+															<li><a href="../profil/?p=iku">Indikator Kinerja Utama (IKU)</a></li>-->
+</ul>
+</div>
+<div class="col-md-3 md-margin-bottom-30">
+<h2>Layanan Publik</h2>
+<ul class="dropdown-link-list">
+<li><a href="http://perpustakaan.bmkg.go.id" target="_blank">Perpustakaan Digital</a></li>
+<li><a href="http://ptsp.bmkg.go.id" target="_blank">Pelayanan Terpadu Satu Pintu (PTSP)</a></li>
+<li><a href="http://ppid.bmkg.go.id" target="_blank">Pejabat Pengelola Informasi dan Dokumentasi (PPID)</a></li>
+<li><a href="http://lpse.bmkg.go.id" target="_blank">LPSE</a></li>
+<li><a href="https://www.lapor.go.id/" target="_blank">Pengaduan Masyarakat</a></li>
+<li><a href="https://bmkg.go.id/profil/?p=laporan-harta-kekayaan-pejabat-negara" target="_blank">LHKPN</a></li>
+<!-- <li><a href="https://elhkpn.kpk.go.id/portal/user/pengumuman_lhkpn/VFRoMlZTdHZRelZpZUVKNWNWSXlSa3BwZWtWVGR6WnlUSGtyUWtoWWFFODVkMWsyU0VOTU9FRjFjRUl5YzJaWk1HNDRkRTVDYVdWMlpsUXlUeTl5Wnc9PQ==" target="_blank">LHKPN</a></li> -->
+<li><a href="../profil/?p=media-sosial">Media Sosial</a></li>
+</ul>
+<h2>Regulasi</h2>
+<ul class="dropdown-link-list">
+<li><a href="http://jdih.bmkg.go.id" target="_blank">Jaringan Dokumentasi Informasi Hukum BMKG</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</li>
+<li class="dropdown mega-menu-fullwidth">
+<a class="dropdown-toggle" data-toggle="dropdown" href="../javascript:void(0);">
+									Cuaca
+								</a>
+<ul class="dropdown-menu">
+<li>
+<div class="mega-menu-content">
+<div class="container">
+<div class="row">
+<div class="col-md-4 md-margin-bottom-30">
+<h2>Prakiraan Cuaca</h2>
+<ul class="dropdown-link-list">
+<!--<li><a href="../cuaca/prakiraan-cuaca-dunia.bmkg">Prakiraan Cuaca Dunia</a></li>
+															<li><a href="../cuaca/prakiraan-cuaca-indonesia.bmkg">Prakiraan Cuaca Indonesia</a></li>-->
+<li><a href="../cuaca/prakiraan-cuaca.bmkg?kab=Jakarta&amp;Prov=DKI_Jakarta&amp;AreaID=501195">Prakiraan Cuaca DKI Jakarta</a></li>
+<li><a href="../cuaca/cuaca-berbasis-dampak.bmkg">Prakiraan Cuaca Berbasis Dampak</a></li>
+<li><a href="https://cuaca.bmkg.go.id" target="_blank">Informasi Selengkapnya</a></li>
+<li><hr/></li>
+</ul>
+<h2>Prospek Cuaca Harian</h2>
+<ul class="dropdown-link-list">
+<li><a href="../cuaca/ikhtisar-cuaca-harian.bmkg">Ikhtisar Cuaca Harian</a></li>
+<!--<li><a href="../cuaca/prakiraan-cuaca-tigaharian.bmkg">Prospek Cuaca Tiga Harian</a></li>-->
+<li><a href="../cuaca/prospek-cuaca-mingguan.bmkg">Prospek Cuaca Mingguan</a></li>
+</ul>
+</div>
+<div class="col-md-4 md-margin-bottom-30">
+<h2>Cuaca Penerbangan</h2>
+<ul class="dropdown-link-list">
+<li><a href="../cuaca/cuaca-aktual-bandara.bmkg">Laporan Cuaca Aktual Bandara</a></li>
+<li><a href="../cuaca/prakiraan-cuaca-bandara.bmkg">Prakiraan Cuaca Bandara</a></li>
+<li><a href="http://aviation.bmkg.go.id?fromURL=www.bmkg.go.id" target="_blank">Informasi Selengkapnya</a></li>
+<li><hr/></li>
+</ul>
+<h2>Cuaca Maritim</h2>
+<ul class="dropdown-link-list">
+<li><a href="../cuaca/peringatan-gelombang-tinggi.bmkg">Peringatan Gelombang Tinggi</a></li>
+<li><a href="http://maritim.bmkg.go.id?fromURL=www.bmkg.go.id" target="_blank">Prakiraan Cuaca Wilayah Pelayanan</a></li>
+<li><a href="http://maritim.bmkg.go.id?fromURL=www.bmkg.go.id" target="_blank">Prakiraan Tinggi Gelombang</a></li>
+<li><a href="http://maritim.bmkg.go.id?fromURL=www.bmkg.go.id" target="_blank">Prakiraan Cuaca Pelabuhan</a></li>
+<!--<li><a href="http://maritim.bmkg.go.id?fromURL=www.bmkg.go.id" target="_blank">Informasi Selengkapnya</a></li>-->
+</ul>
+</div>
+<div class="col-md-4 md-margin-bottom-30">
+<h2>Pengindraan Jauh</h2>
+<ul class="dropdown-link-list">
+<li><a href="../satelit/">Citra Satelit</a></li>
+<li><a href="../cuaca/citra-radar.bmkg">Citra Radar</a></li>
+<li><hr/></li>
+<li><a href="../cuaca/prakiraan-angin.bmkg">Prakiraan Angin</a></li>
+<!--<li><a href="../cuaca/potensi-banjir-jakarta.bmkg">Potensi Banjir Jakarta (Harian)</a></li>
+															<li><a href="../#">Analisis Curah Hujan Harian JABODETABEK (Isohyet)</a></li>-->
+<li><a href="../cuaca/probabilistik-curah-hujan.bmkg">Probabilistik Curah Hujan</a></li>
+<li><a href="../cuaca/cuaca-berbasis-dampak.bmkg">Prakiraan Cuaca Berbasis Dampak</a></li>
+<li><a href="../cuaca/kebakaran-hutan.bmkg">Kebakaran Hutan dan Lahan (SPARTAN)</a></li>
+<li><a href="https://tropicalcyclone.bmkg.go.id/" target="_blank">Siklon Tropis</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</li>
+<li class="dropdown mega-menu-fullwidth">
+<a class="dropdown-toggle" data-toggle="dropdown" href="../javascript:void(0);">
+									Iklim
+								</a>
+<ul class="dropdown-menu">
+<li>
+<div class="mega-menu-content">
+<div class="container">
+<div class="row">
+<div class="col-md-3 md-margin-bottom-30">
+<h2>Monitoring Iklim</h2>
+<ul class="dropdown-link-list">
+<li><a href="http://cews.bmkg.go.id/Peta/Hari_Tanpa_Hujan.bmkg" target="_blank">Informasi Hari Tanpa Hujan</a></li>
+<li><a href="#">Informasi Suhu Muka Laut</a></li>
+<li><a href="#">Informasi Indeks ENSO</a></li>
+<li><a href="#">Informasi Indeks DM</a></li>
+<li><a href="../iklim/buletin-iklim.bmkg">Buletin Iklim</a></li>
+<!--<li><a href="../iklim/informasi-suhu-muka-laut.bmkg">Informasi Suhu Muka Laut</a></li>
+															<li><a href="../iklim/informasi-index-elnino.bmkg">Informasi Index El Nino</a></li>
+															<li><a href="../iklim/informasi-temperatur-subsurface-pasifik.bmkg">Informasi Temperatur Subsurface Pasifik</a></li>-->
+</ul>
+</div>
+<div class="col-md-3 md-margin-bottom-30">
+<h2>Analisis Iklim</h2>
+<ul class="dropdown-link-list">
+<li><a href="../iklim/informasi-hujan-bulanan.bmkg">Informasi Hujan Bulanan</a></li>
+<li><a href="../iklim/dinamika-atmosfir.bmkg">Dinamika Atmosfer</a></li>
+<li><a href="../iklim/indeks-presipitasi-terstandarisasi.bmkg">Indeks Presipitasi Terstandarisasi</a></li>
+<li><a href="../iklim/ketersediaan-air-tanah.bmkg">Air Tersedia Bagi Tanaman (ATi)</a></li>
+</ul>
+</div>
+<div class="col-md-3 md-margin-bottom-30">
+<h2>Prakiraan Iklim</h2>
+<ul class="dropdown-link-list">
+<li><a href="../iklim/prakiraan-hujan-bulanan.bmkg">Prakiraan Hujan Bulanan</a></li>
+<li><a href="../iklim/prakiraan-hujan-dasarian.bmkg">Prakiraan Hujan Dasarian</a></li>
+<li><a href="../iklim/prakiraan-musim.bmkg">Prakiraan Musim</a></li>
+<li><a href="../iklim/potensi-banjir.bmkg">Potensi Banjir Bulanan</a></li>
+<li><a href="../iklim/potensi-banjir-dasarian.bmkg">Potensi Banjir Dasarian</a></li>
+</ul>
+</div>
+<div class="col-md-3 md-margin-bottom-30">
+<h2>Perubahan Iklim</h2>
+<ul class="dropdown-link-list">
+<!--li><a href="../iklim/?p=tren-curah-hujan">Tren Curah Hujan</a></li>
+															<li><a href="../iklim/?p=tren-suhu">Tren Suhu</a></li>
+															<li><a href="../iklim/perubahan-normal-curah-hujan.bmkg">Perubahan Normal Curah Hujan</a></li>
+															<li><a href="../iklim/?p=ekstrem-perubahan-iklim">Ekstrem Perubahan Iklim</a></li-->
+<li>Historis Perubahan Iklim</li>
+<li><a href="../iklim/anomali-suhu-udara-bulanan.bmkg">• Anomali Suhu Udara Bulanan</a></li>
+<li><a href="../iklim/anomali-suhu-udara-tahunan.bmkg">• Anomali Suhu Udara Tahunan</a></li>
+<li><a href="../iklim/?p=analisis-laju-perubahan-suhu-udara">• Analisis Laju Perubahan Suhu Udara</a></li>
+<li><a href="../iklim/?p=analisis-laju-perubahan-curah-hujan">• Analisis Laju Perubahan Curah Hujan</a></li>
+<li><a href="../iklim/fakta-perubahan-iklim.bmkg">• Fakta Perubahan Iklim</a></li>
+<li><hr/></li>
+<li>Proyeksi Perubahan Iklim</li>
+<li><a href="../iklim/?p=proyeksi-perubahan-suhu-udara">• Proyeksi Perubahan Suhu Udara</a></li>
+<li><a href="../iklim/?p=proyeksi-perubahan-curah-hujan">• Proyeksi Perubahan Curah Hujan</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</li>
+<li class="dropdown mega-menu-fullwidth">
+<a class="dropdown-toggle" data-toggle="dropdown" href="../javascript:void(0);">
+									Kualitas Udara
+								</a>
+<ul class="dropdown-menu">
+<li>
+<div class="mega-menu-content">
+<div class="container">
+<div class="row">
+<div class="col-md-4 md-margin-bottom-30">
+<h2>Pemantauan Kualitas Udara</h2>
+<ul class="dropdown-link-list">
+<li><a href="../kualitas-udara/informasi-partikulat-pm25.bmkg">Partikulat (PM<sub>2.5</sub>)</a></li>
+<li><a href="../kualitas-udara/?p=gas-rumah-kaca">Gas Rumah Kaca</a></li>
+</ul>
+</div>
+<div class="col-md-4 md-margin-bottom-30">
+<h2>Analisis Kualitas Udara</h2>
+<ul class="dropdown-link-list">
+<li><a href="../kualitas-udara/informasi-ozon.bmkg">Ozon Permukaan</a></li>
+<li><a href="../kualitas-udara/informasi-so2.bmkg">Sulfur Dioksida</a></li>
+<li><a href="../kualitas-udara/informasi-no2.bmkg">Nitrogen Dioksida</a></li>
+<li><a href="../kualitas-udara/informasi-spm.bmkg">Partikulat (SPM)</a></li>
+<li><a href="../kualitas-udara/informasi-kimia-air-hujan.bmkg">Kimia Air Hujan</a></li>
+</ul>
+</div>
+<div class="col-md-4 md-margin-bottom-30">
+<h2>Prakiraan Kualitas Udara</h2>
+<ul class="dropdown-link-list">
+<li><a href="../kualitas-udara/indeks-uv.bmkg">Indeks Ultraviolet</a></li>
+<li><a href="#">Partikulat (PM<sub>2.5</sub>)</a></li>
+<li><a href="#">Ozon Permukaan</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</li>
+<!--
+							<li class="dropdown">
+								<a href="../javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+									Kualitas Udara
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="../kualitas-udara/indeks-uv.bmkg">Indeks Sinar Ultraviolet (UV)</a></li>
+									<li><a href="../kualitas-udara/informasi-so2.bmkg">Informasi SO<sub>2</sub></a></li>
+									<li><a href="../kualitas-udara/informasi-no2.bmkg">Informasi NO<sub>2</sub></a></li>
+									<li><a href="../kualitas-udara/informasi-spm.bmkg">Informasi SPM</a></li>
+									<li><a href="../kualitas-udara/informasi-kimia-air-hujan.bmkg">Informasi Kimia Air Hujan</a></li>
+									<li><a href="../kualitas-udara/informasi-ozon.bmkg">Informasi Ozon (O3)</a></li>
+									<li><a href="../kualitas-udara/?p=gas-rumah-kaca">Informasi Gas Rumah Kaca</a></li>
+									<li><a href="../kualitas-udara/informasi-partikulat-pm10.bmkg">Informasi Partikulat (PM<sub>10</sub>)</a></li>
+									<li><a href="../kualitas-udara/informasi-partikulat-pm25.bmkg">Informasi Partikulat (PM<sub>2.5</sub>)</a></li>
+									<li><a href="../kualitas-udara/informasi-partikulat-tsp.bmkg">Total Suspended Particulate (TSP)</a></li>
+								</ul>
+							</li>-->
+<li class="dropdown mega-menu-fullwidth">
+<a class="dropdown-toggle" data-toggle="dropdown" href="../javascript:void(0);">
+									Gempabumi &amp; Tsunami
+								</a>
+<ul class="dropdown-menu">
+<li>
+<div class="mega-menu-content">
+<div class="container">
+<div class="row">
+<div class="col-md-4 md-margin-bottom-30">
+<h2>Gempabumi</h2>
+<ul class="dropdown-link-list">
+<li><a href="../gempabumi/gempabumi-terkini.bmkg">Gempabumi Terkini (M ≥ 5.0)</a></li>
+<li><a href="../gempabumi/gempabumi-dirasakan.bmkg">Gempabumi Dirasakan</a></li>
+<li><a href="../gempabumi/gempabumi-realtime.bmkg">Gempabumi Realtime</a></li>
+<li><a href="../gempabumi/antisipasi-gempabumi.bmkg">Antisipasi Gempabumi</a></li>
+<li><a href="../gempabumi/skala-intensitas-gempabumi.bmkg">Skala Intensitas Gempabumi</a></li>
+<li><a href="../gempabumi/skala-mmi.bmkg">Skala MMI</a></li>
+<li><a href="http://repogempa.bmkg.go.id/" target="_blank">Data Gempabumi</a></li>
+<!-- <li><a href="../gempabumi/katalog-gempabumi-signifikan.bmkg">Katalog Gempabumi Signifikan</a></li> -->
+</ul>
+</div>
+<div class="col-md-4 md-margin-bottom-30">
+<h2>Tsunami</h2>
+<ul class="dropdown-link-list">
+<li><a href="../tsunami">Tsunami</a></li>
+<li><hr/></li>
+</ul>
+<h2>Seismologi Teknik</h2>
+<ul class="dropdown-link-list">
+<li><a href="../seismologi-teknik/">Tentang Seismologi Teknik</a></li>
+<li><a href="../seismologi-teknik/ulasan-guncangan-tanah.bmkg">Ulasan Guncangan Tanah</a></li>
+<li><a href="../seismologi-teknik/peta-isoseismal.bmkg">Peta Isoseismal</a></li>
+</ul>
+</div>
+<div class="col-md-4 md-margin-bottom-30">
+<h2>Geofisika Potensial &amp; Tanda Waktu</h2>
+<ul class="dropdown-link-list">
+<li><a href="../geofisika-potensial/nilai-gravitasi-indonesia.bmkg">Gaya Berat</a></li>
+<li><a href="../hilal-gerhana/">Informasi Hilal dan Gerhana</a></li>
+<li><a href="../tanda-waktu/terbit-terbenam-matahari.bmkg">Terbit Terbenam Matahari</a></li>
+<li><a href="../geofisika-potensial/magnet-bumi.bmkg">Magnet Bumi</a></li>
+<li><a href="../geofisika-potensial/kalkulator-magnet-bumi.bmkg">Kalkulator Magnet Bumi</a></li>
+<li><a href="../geofisika-potensial/peta-sambaran-petir.bmkg">Peta Sambaran Petir</a></li>
+<li><a href="https://202.90.199.165/strikes/web/index.php?r=strike%2Fmapx">Petir (JABODETABEK)</a></li>
+<li><a href="../tanda-waktu/?p=ebook-almanak">E-Book Almanak</a></li>
+<li><a href="../tanda-waktu/?p=ebook-peta-ketinggian-hilal">E-Book Peta Ketinggian Hilal</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="../javascript:void(0);">
+									IT &amp; Sarana Teknis
+								</a>
+<ul class="dropdown-menu">
+<li class="dropdown-submenu">
+<a href="../javascript:void(0);">Instrumentasi, Rekayasa dan Kalibrasi</a>
+<ul class="dropdown-menu kir">
+<li><a href="../#">Instrumentasi</a></li>
+<li><a href="../#">Peta Instrumentasi BMKG</a></li>
+<li><a href="../#">Kalibrasi</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu">
+<a href="../javascript:void(0);">Layanan Jaringan Komunikasi</a>
+<ul class="dropdown-menu kir">
+<li><a href="../jaringan-komunikasi/?p=kebijakan-sistem-manajemen-mutu-layanan-dan-keamanan-informasi-pusat-jaringan-komunikasi">Kebijakan Layanan Jaringan Komunikasi</a></li>
+<!--<li><a href="../jaringan-komunikasi/?p=layanan">Katalog Layanan Jaringan Komunikasi</a></li>-->
+<li><a href="https://sibatik.bmkg.go.id/layanan.html" target="_blank">Katalog Layanan Jaringan Komunikasi</a></li>
+<li><a href="../email/?p=syarat-ketentuan-pembuatan">Email BMKG</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu">
+<a href="../javascript:void(0);">Database</a>
+<ul class="dropdown-menu kir">
+<li><a href="../database/">Komitmen dan Kebijakan Sistem Manajemen Mutu Pusat Database</a></li>
+<li><a href="http://dataonline.bmkg.go.id/" target="_blank">Data Online</a></li>
+<li><a href="../database/?p=tentang-database">Tentang Database</a></li>
+<li><a href="../database/?p=alur-pengumpulan-data">Alur Pengumpulan Data</a></li>
+<li><a href="../database/?p=jenis-data">Jenis Data</a></li>
+<li><a href="../database/?p=pengetahuan">Pengetahuan</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="breadcrumbs breadcrumbs-light">
+<div class="container">
+<h1 class="pull-left">Prakiraan Cuaca</h1>
+<ul class="pull-right breadcrumb">
+<li><a href="../">Beranda</a></li>
+<li class="active">Prakiraan Cuaca</li>
+</ul>
+</div>
+</div>
+<div class="container content">
+<div class="row">
+<div class="col-md-8 md-margin-bottom-20">
+<script language="javascript" type="text/javascript">
+					<!--
+					function jump_menu(target, input_select, restore) {
+					  eval(target + '.location=\'' + input_select.options[input_select.selectedIndex].value + '\'');
+					  if (restore) input_select.selectedIndex = 0;
+					}
+					function search_validate() {
+					  var validate = true;
+					  if (((search_form.search_keyword.value == '') || (search_form.search_keyword.value == 'Cari...')) && validate) {
+						search_form.search_keyword.focus();
+						validate = false;
+					  }
+					  return validate;
+					}
+					//-->
+				</script>
+<form action="Digital_Forcast1.bmkg" method="get" role="form" style="margin:20px 0 30px 0;">
+<fieldset>
+<div class="form-group mb">
+<!--<label class="col-sm-2 control-label">Pilih Kota</label>-->
+<div class="col-sm-12 no-padding">
+<select class="chosen-select input-md form-control selectpicker" data-live-search="true" onchange="jump_menu('document', this, 0);">
+<option>Pilih Kecamatan/ Kota/ Kabupaten di Jawa Barat</option>
+<optgroup label="Gadog Puncak - Jawa Barat">
+<option value="?Kec=Gadog&amp;kab=Gadog_Puncak&amp;Prov=Jawa_Barat&amp;AreaID=5002288">Gadog - Gadog Puncak</option>
+</optgroup>
+<optgroup label="Kab. Bandung - Jawa Barat">
+<option value="?Kec=Solokan_Jeruk&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009748">Solokan Jeruk - Kab. Bandung</option>
+<option value="?Kec=Soreang&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009749">Soreang - Kab. Bandung</option>
+<option value="?Kec=Pameungpeuk&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009646">Pameungpeuk - Kab. Bandung</option>
+<option value="?Kec=Pasirjambu&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009678">Pasirjambu - Kab. Bandung</option>
+<option value="?Kec=Cimenyan&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009408">Cimenyan - Kab. Bandung</option>
+<option value="?Kec=Ibun&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009487">Ibun - Kab. Bandung</option>
+<option value="?Kec=Cicalengka&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009333">Cicalengka - Kab. Bandung</option>
+<option value="?Kec=Cimaung&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009407">Cimaung - Kab. Bandung</option>
+<option value="?Kec=Ciparay&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009418">Ciparay - Kab. Bandung</option>
+<option value="?Kec=Pangalengan&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009655">Pangalengan - Kab. Bandung</option>
+<option value="?Kec=Rancaekek&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009709">Rancaekek - Kab. Bandung</option>
+<option value="?Kec=Paseh&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009675">Paseh - Kab. Bandung</option>
+<option value="?Kec=Banjaran&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009244">Banjaran - Kab. Bandung</option>
+<option value="?Kec=Cileunyi&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009394">Cileunyi - Kab. Bandung</option>
+<option value="?Kec=Dayeuhkolot&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009460">Dayeuhkolot - Kab. Bandung</option>
+<option value="?Kec=Baleendah&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009237">Baleendah - Kab. Bandung</option>
+<option value="?Kec=Majalaya&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009598">Majalaya - Kab. Bandung</option>
+<option value="?Kec=Ciwidey&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009448">Ciwidey - Kab. Bandung</option>
+<option value="?Kec=Arjasari&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009229">Arjasari - Kab. Bandung</option>
+<option value="?Kec=Kutawaringin&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009567">Kutawaringin - Kab. Bandung</option>
+<option value="?Kec=Pacet&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009631">Pacet - Kab. Bandung</option>
+<option value="?Kec=Rancabali&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009708">Rancabali - Kab. Bandung</option>
+<option value="?Kec=Cikancung&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009369">Cikancung - Kab. Bandung</option>
+<option value="?Kec=Katapang&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009542">Katapang - Kab. Bandung</option>
+<option value="?Kec=Kertasari&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009553">Kertasari - Kab. Bandung</option>
+<option value="?Kec=Cangkuang&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009294">Cangkuang - Kab. Bandung</option>
+<option value="?Kec=Bojongsoang&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009283">Bojongsoang - Kab. Bandung</option>
+<option value="?Kec=Margahayu&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009613">Margahayu - Kab. Bandung</option>
+<option value="?Kec=Cilengkrang&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009392">Cilengkrang - Kab. Bandung</option>
+<option value="?Kec=Margaasih&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009612">Margaasih - Kab. Bandung</option>
+<option value="?Kec=Nagreg&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009621">Nagreg - Kab. Bandung</option>
+<option value="?Kec=Soreang&amp;kab=Kab._Bandung&amp;Prov=Jawa_Barat&amp;AreaID=501232">Soreang - Kab. Bandung</option>
+</optgroup>
+<optgroup label="Kab. Bandung Barat - Jawa Barat">
+<option value="?Kec=Lembang&amp;kab=Kab._Bandung_Barat&amp;Prov=Jawa_Barat&amp;AreaID=501599">Lembang - Kab. Bandung Barat</option>
+<option value="?Kec=Cihampelas&amp;kab=Kab._Bandung_Barat&amp;Prov=Jawa_Barat&amp;AreaID=5009353">Cihampelas - Kab. Bandung Barat</option>
+<option value="?Kec=Cisarua&amp;kab=Kab._Bandung_Barat&amp;Prov=Jawa_Barat&amp;AreaID=5009434">Cisarua - Kab. Bandung Barat</option>
+<option value="?Kec=Cipongkor&amp;kab=Kab._Bandung_Barat&amp;Prov=Jawa_Barat&amp;AreaID=5009426">Cipongkor - Kab. Bandung Barat</option>
+<option value="?Kec=Lembang&amp;kab=Kab._Bandung_Barat&amp;Prov=Jawa_Barat&amp;AreaID=5009580">Lembang - Kab. Bandung Barat</option>
+<option value="?Kec=Parongpong&amp;kab=Kab._Bandung_Barat&amp;Prov=Jawa_Barat&amp;AreaID=5009667">Parongpong - Kab. Bandung Barat</option>
+<option value="?Kec=Rongga&amp;kab=Kab._Bandung_Barat&amp;Prov=Jawa_Barat&amp;AreaID=5009717">Rongga - Kab. Bandung Barat</option>
+<option value="?Kec=Cikalongwetan&amp;kab=Kab._Bandung_Barat&amp;Prov=Jawa_Barat&amp;AreaID=5009367">Cikalongwetan - Kab. Bandung Barat</option>
+<option value="?Kec=Ngamprah&amp;kab=Kab._Bandung_Barat&amp;Prov=Jawa_Barat&amp;AreaID=5009624">Ngamprah - Kab. Bandung Barat</option>
+<option value="?Kec=Cipatat&amp;kab=Kab._Bandung_Barat&amp;Prov=Jawa_Barat&amp;AreaID=5009419">Cipatat - Kab. Bandung Barat</option>
+<option value="?Kec=Cililin&amp;kab=Kab._Bandung_Barat&amp;Prov=Jawa_Barat&amp;AreaID=5009395">Cililin - Kab. Bandung Barat</option>
+<option value="?Kec=Gununghalu&amp;kab=Kab._Bandung_Barat&amp;Prov=Jawa_Barat&amp;AreaID=5009480">Gununghalu - Kab. Bandung Barat</option>
+<option value="?Kec=Cipeundeuy&amp;kab=Kab._Bandung_Barat&amp;Prov=Jawa_Barat&amp;AreaID=5009423">Cipeundeuy - Kab. Bandung Barat</option>
+<option value="?Kec=Sindangkerta&amp;kab=Kab._Bandung_Barat&amp;Prov=Jawa_Barat&amp;AreaID=5009741">Sindangkerta - Kab. Bandung Barat</option>
+<option value="?Kec=Padalarang&amp;kab=Kab._Bandung_Barat&amp;Prov=Jawa_Barat&amp;AreaID=5009635">Padalarang - Kab. Bandung Barat</option>
+<option value="?Kec=Batujajar&amp;kab=Kab._Bandung_Barat&amp;Prov=Jawa_Barat&amp;AreaID=5009256">Batujajar - Kab. Bandung Barat</option>
+<option value="?Kec=Saguling&amp;kab=Kab._Bandung_Barat&amp;Prov=Jawa_Barat&amp;AreaID=5009722">Saguling - Kab. Bandung Barat</option>
+</optgroup>
+<optgroup label="Kab. Bekasi - Jawa Barat">
+<option value="?Kec=Cabangbungin&amp;kab=Kab._Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009290">Cabangbungin - Kab. Bekasi</option>
+<option value="?Kec=Kedungwaringin&amp;kab=Kab._Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009548">Kedungwaringin - Kab. Bekasi</option>
+<option value="?Kec=Cibarusah&amp;kab=Kab._Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009313">Cibarusah - Kab. Bekasi</option>
+<option value="?Kec=Bojongmangu&amp;kab=Kab._Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009280">Bojongmangu - Kab. Bekasi</option>
+<option value="?Kec=Muara_Gembong&amp;kab=Kab._Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009617">Muara Gembong - Kab. Bekasi</option>
+<option value="?Kec=Tambun_selatan&amp;kab=Kab._Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009804">Tambun selatan - Kab. Bekasi</option>
+<option value="?Kec=Sukawangi&amp;kab=Kab._Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009780">Sukawangi - Kab. Bekasi</option>
+<option value="?Kec=Tambelang&amp;kab=Kab._Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009803">Tambelang - Kab. Bekasi</option>
+<option value="?Kec=Tambun_Utara&amp;kab=Kab._Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009805">Tambun Utara - Kab. Bekasi</option>
+<option value="?Kec=Sukakarya&amp;kab=Kab._Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009760">Sukakarya - Kab. Bekasi</option>
+<option value="?Kec=Cikarang_Pusat&amp;kab=Kab._Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009372">Cikarang Pusat - Kab. Bekasi</option>
+<option value="?Kec=Cikarang_Barat&amp;kab=Kab._Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009371">Cikarang Barat - Kab. Bekasi</option>
+<option value="?Kec=Karangbahagia&amp;kab=Kab._Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009529">Karangbahagia - Kab. Bekasi</option>
+<option value="?Kec=Tarumajaya&amp;kab=Kab._Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009818">Tarumajaya - Kab. Bekasi</option>
+<option value="?Kec=Cibitung&amp;kab=Kab._Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009326">Cibitung - Kab. Bekasi</option>
+<option value="?Kec=Serang_Baru&amp;kab=Kab._Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009731">Serang Baru - Kab. Bekasi</option>
+<option value="?Kec=Cikarang&amp;kab=Kab._Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=501219">Cikarang - Kab. Bekasi</option>
+<option value="?Kec=Cikarang_Timur&amp;kab=Kab._Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009374">Cikarang Timur - Kab. Bekasi</option>
+<option value="?Kec=Cikarang_Utara&amp;kab=Kab._Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009375">Cikarang Utara - Kab. Bekasi</option>
+<option value="?Kec=Babelan&amp;kab=Kab._Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009236">Babelan - Kab. Bekasi</option>
+<option value="?Kec=Setu&amp;kab=Kab._Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009733">Setu - Kab. Bekasi</option>
+<option value="?Kec=Sukatani&amp;kab=Kab._Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009778">Sukatani - Kab. Bekasi</option>
+<option value="?Kec=Pebayuran&amp;kab=Kab._Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009684">Pebayuran - Kab. Bekasi</option>
+<option value="?Kec=Cikarang_Selatan&amp;kab=Kab._Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009373">Cikarang Selatan - Kab. Bekasi</option>
+</optgroup>
+<optgroup label="Kab. Bogor - Jawa Barat">
+<option value="?Kec=Kemang&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009550">Kemang - Kab. Bogor</option>
+<option value="?Kec=Cigombong&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009349">Cigombong - Kab. Bogor</option>
+<option value="?Kec=Cigudeg&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009350">Cigudeg - Kab. Bogor</option>
+<option value="?Kec=Klapanunggal&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009558">Klapanunggal - Kab. Bogor</option>
+<option value="?Kec=Citeureup&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009445">Citeureup - Kab. Bogor</option>
+<option value="?Kec=Jonggol&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009511">Jonggol - Kab. Bogor</option>
+<option value="?Kec=Cariu&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009299">Cariu - Kab. Bogor</option>
+<option value="?Kec=Cisarua&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009435">Cisarua - Kab. Bogor</option>
+<option value="?Kec=Dramaga&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009462">Dramaga - Kab. Bogor</option>
+<option value="?Kec=Gunung_Putri&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009478">Gunung Putri - Kab. Bogor</option>
+<option value="?Kec=Cibinong&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009323">Cibinong - Kab. Bogor</option>
+<option value="?Kec=Gunung_Sindur&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009479">Gunung Sindur - Kab. Bogor</option>
+<option value="?Kec=Ciawi&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009307">Ciawi - Kab. Bogor</option>
+<option value="?Kec=Ciomas&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009415">Ciomas - Kab. Bogor</option>
+<option value="?Kec=Cibungbulang&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009332">Cibungbulang - Kab. Bogor</option>
+<option value="?Kec=Cijeruk&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009359">Cijeruk - Kab. Bogor</option>
+<option value="?Kec=Jasinga&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009497">Jasinga - Kab. Bogor</option>
+<option value="?Kec=Cileungsi&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009393">Cileungsi - Kab. Bogor</option>
+<option value="?Kec=Ciampea&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009302">Ciampea - Kab. Bogor</option>
+<option value="?Kec=Caringin&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009296">Caringin - Kab. Bogor</option>
+<option value="?Kec=Tenjolaya&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009829">Tenjolaya - Kab. Bogor</option>
+<option value="?Kec=Parung&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009668">Parung - Kab. Bogor</option>
+<option value="?Kec=Parung_Panjang&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009669">Parung Panjang - Kab. Bogor</option>
+<option value="?Kec=Ranca_Bungur&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009707">Ranca Bungur - Kab. Bogor</option>
+<option value="?Kec=Sukajaya&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009759">Sukajaya - Kab. Bogor</option>
+<option value="?Kec=Babakan_Madang&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009234">Babakan Madang - Kab. Bogor</option>
+<option value="?Kec=Rumpin&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009718">Rumpin - Kab. Bogor</option>
+<option value="?Kec=Cisarua&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5002286">Cisarua - Kab. Bogor</option>
+<option value="?Kec=Sukamakmur&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009763">Sukamakmur - Kab. Bogor</option>
+<option value="?Kec=Sukaraja&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009766">Sukaraja - Kab. Bogor</option>
+<option value="?Kec=Tajur_Halang&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009794">Tajur Halang - Kab. Bogor</option>
+<option value="?Kec=Tamansari&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009799">Tamansari - Kab. Bogor</option>
+<option value="?Kec=Tanjungsari&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009812">Tanjungsari - Kab. Bogor</option>
+<option value="?Kec=Cibinong&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=501218">Cibinong - Kab. Bogor</option>
+<option value="?Kec=Pamijahan&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009648">Pamijahan - Kab. Bogor</option>
+<option value="?Kec=Tenjo&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009828">Tenjo - Kab. Bogor</option>
+<option value="?Kec=Ciseeng&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009438">Ciseeng - Kab. Bogor</option>
+<option value="?Kec=Megamendung&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009615">Megamendung - Kab. Bogor</option>
+<option value="?Kec=Nanggung&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009622">Nanggung - Kab. Bogor</option>
+<option value="?Kec=Bojonggede&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009277">Bojonggede - Kab. Bogor</option>
+<option value="?Kec=Leuwisadeng&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009587">Leuwisadeng - Kab. Bogor</option>
+<option value="?Kec=Leuwiliang&amp;kab=Kab._Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009585">Leuwiliang - Kab. Bogor</option>
+</optgroup>
+<optgroup label="Kab. Ciamis - Jawa Barat">
+<option value="?Kec=Tambaksari&amp;kab=Kab._Ciamis&amp;Prov=Jawa_Barat&amp;AreaID=5009802">Tambaksari - Kab. Ciamis</option>
+<option value="?Kec=Cijeungjing&amp;kab=Kab._Ciamis&amp;Prov=Jawa_Barat&amp;AreaID=5009360">Cijeungjing - Kab. Ciamis</option>
+<option value="?Kec=Sindangkasih&amp;kab=Kab._Ciamis&amp;Prov=Jawa_Barat&amp;AreaID=5009740">Sindangkasih - Kab. Ciamis</option>
+<option value="?Kec=Cipaku&amp;kab=Kab._Ciamis&amp;Prov=Jawa_Barat&amp;AreaID=5009416">Cipaku - Kab. Ciamis</option>
+<option value="?Kec=Sukadana&amp;kab=Kab._Ciamis&amp;Prov=Jawa_Barat&amp;AreaID=5009754">Sukadana - Kab. Ciamis</option>
+<option value="?Kec=Rancah&amp;kab=Kab._Ciamis&amp;Prov=Jawa_Barat&amp;AreaID=5009710">Rancah - Kab. Ciamis</option>
+<option value="?Kec=Lumbung&amp;kab=Kab._Ciamis&amp;Prov=Jawa_Barat&amp;AreaID=5009595">Lumbung - Kab. Ciamis</option>
+<option value="?Kec=Cimaragas&amp;kab=Kab._Ciamis&amp;Prov=Jawa_Barat&amp;AreaID=5009406">Cimaragas - Kab. Ciamis</option>
+<option value="?Kec=Sadananya&amp;kab=Kab._Ciamis&amp;Prov=Jawa_Barat&amp;AreaID=5009719">Sadananya - Kab. Ciamis</option>
+<option value="?Kec=Kawali&amp;kab=Kab._Ciamis&amp;Prov=Jawa_Barat&amp;AreaID=5009543">Kawali - Kab. Ciamis</option>
+<option value="?Kec=Ciamis&amp;kab=Kab._Ciamis&amp;Prov=Jawa_Barat&amp;AreaID=501216">Ciamis - Kab. Ciamis</option>
+<option value="?Kec=Panjalu&amp;kab=Kab._Ciamis&amp;Prov=Jawa_Barat&amp;AreaID=5009661">Panjalu - Kab. Ciamis</option>
+<option value="?Kec=Cikoneng&amp;kab=Kab._Ciamis&amp;Prov=Jawa_Barat&amp;AreaID=5009384">Cikoneng - Kab. Ciamis</option>
+<option value="?Kec=Cidolog&amp;kab=Kab._Ciamis&amp;Prov=Jawa_Barat&amp;AreaID=5009342">Cidolog - Kab. Ciamis</option>
+<option value="?Kec=Lakbok&amp;kab=Kab._Ciamis&amp;Prov=Jawa_Barat&amp;AreaID=5009568">Lakbok - Kab. Ciamis</option>
+<option value="?Kec=Cihaurbeuti&amp;kab=Kab._Ciamis&amp;Prov=Jawa_Barat&amp;AreaID=5009354">Cihaurbeuti - Kab. Ciamis</option>
+<option value="?Kec=Sukamantri&amp;kab=Kab._Ciamis&amp;Prov=Jawa_Barat&amp;AreaID=5009764">Sukamantri - Kab. Ciamis</option>
+<option value="?Kec=Panawangan&amp;kab=Kab._Ciamis&amp;Prov=Jawa_Barat&amp;AreaID=5009651">Panawangan - Kab. Ciamis</option>
+<option value="?Kec=Baregbeg&amp;kab=Kab._Ciamis&amp;Prov=Jawa_Barat&amp;AreaID=5009254">Baregbeg - Kab. Ciamis</option>
+<option value="?Kec=Pamarican&amp;kab=Kab._Ciamis&amp;Prov=Jawa_Barat&amp;AreaID=5009645">Pamarican - Kab. Ciamis</option>
+<option value="?Kec=Panumbangan&amp;kab=Kab._Ciamis&amp;Prov=Jawa_Barat&amp;AreaID=5009662">Panumbangan - Kab. Ciamis</option>
+<option value="?Kec=Banjarsari&amp;kab=Kab._Ciamis&amp;Prov=Jawa_Barat&amp;AreaID=5009246">Banjarsari - Kab. Ciamis</option>
+<option value="?Kec=Purwadadi&amp;kab=Kab._Ciamis&amp;Prov=Jawa_Barat&amp;AreaID=5009696">Purwadadi - Kab. Ciamis</option>
+<option value="?Kec=Rajadesa&amp;kab=Kab._Ciamis&amp;Prov=Jawa_Barat&amp;AreaID=5009704">Rajadesa - Kab. Ciamis</option>
+<option value="?Kec=Jatinagara&amp;kab=Kab._Ciamis&amp;Prov=Jawa_Barat&amp;AreaID=5009503">Jatinagara - Kab. Ciamis</option>
+<option value="?Kec=Ciamis&amp;kab=Kab._Ciamis&amp;Prov=Jawa_Barat&amp;AreaID=5009301">Ciamis - Kab. Ciamis</option>
+<option value="?Kec=Cisaga&amp;kab=Kab._Ciamis&amp;Prov=Jawa_Barat&amp;AreaID=5009432">Cisaga - Kab. Ciamis</option>
+</optgroup>
+<optgroup label="Kab. Cianjur - Jawa Barat">
+<option value="?Kec=Naringgul&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009623">Naringgul - Kab. Cianjur</option>
+<option value="?Kec=Cikadu&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009362">Cikadu - Kab. Cianjur</option>
+<option value="?Kec=Tanggeung&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009807">Tanggeung - Kab. Cianjur</option>
+<option value="?Kec=Warungkondang&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009844">Warungkondang - Kab. Cianjur</option>
+<option value="?Kec=Haurwangi&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009486">Haurwangi - Kab. Cianjur</option>
+<option value="?Kec=Pagelaran&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009638">Pagelaran - Kab. Cianjur</option>
+<option value="?Kec=Leles&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009574">Leles - Kab. Cianjur</option>
+<option value="?Kec=Cikalongkulon&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009366">Cikalongkulon - Kab. Cianjur</option>
+<option value="?Kec=Takokak&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009795">Takokak - Kab. Cianjur</option>
+<option value="?Kec=Pacet&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009632">Pacet - Kab. Cianjur</option>
+<option value="?Kec=Gekbrong&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009473">Gekbrong - Kab. Cianjur</option>
+<option value="?Kec=Sukaresmi&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009772">Sukaresmi - Kab. Cianjur</option>
+<option value="?Kec=Sindangbarang&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009739">Sindangbarang - Kab. Cianjur</option>
+<option value="?Kec=Ciranjang&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009429">Ciranjang - Kab. Cianjur</option>
+<option value="?Kec=Cipanas&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009417">Cipanas - Kab. Cianjur</option>
+<option value="?Kec=Kadupandak&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009519">Kadupandak - Kab. Cianjur</option>
+<option value="?Kec=Karangtengah&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009535">Karangtengah - Kab. Cianjur</option>
+<option value="?Kec=Sukaluyu&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009762">Sukaluyu - Kab. Cianjur</option>
+<option value="?Kec=Mande&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009605">Mande - Kab. Cianjur</option>
+<option value="?Kec=Pasirkuda&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009679">Pasirkuda - Kab. Cianjur</option>
+<option value="?Kec=Cugenang&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009452">Cugenang - Kab. Cianjur</option>
+<option value="?Kec=Cilaku&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009385">Cilaku - Kab. Cianjur</option>
+<option value="?Kec=Cijati&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009358">Cijati - Kab. Cianjur</option>
+<option value="?Kec=Cianjur&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=501217">Cianjur - Kab. Cianjur</option>
+<option value="?Kec=Campaka_Mulya&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009293">Campaka Mulya - Kab. Cianjur</option>
+<option value="?Kec=Sukanagara&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009765">Sukanagara - Kab. Cianjur</option>
+<option value="?Kec=Cidaun&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009341">Cidaun - Kab. Cianjur</option>
+<option value="?Kec=Cibeber&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009316">Cibeber - Kab. Cianjur</option>
+<option value="?Kec=Cianjur&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009304">Cianjur - Kab. Cianjur</option>
+<option value="?Kec=Cibinong&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009324">Cibinong - Kab. Cianjur</option>
+<option value="?Kec=Agrabinta&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009222">Agrabinta - Kab. Cianjur</option>
+<option value="?Kec=Campaka&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009291">Campaka - Kab. Cianjur</option>
+<option value="?Kec=Bojongpicung&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5009281">Bojongpicung - Kab. Cianjur</option>
+<option value="?Kec=Cipanas&amp;kab=Kab._Cianjur&amp;Prov=Jawa_Barat&amp;AreaID=5002287">Cipanas - Kab. Cianjur</option>
+</optgroup>
+<optgroup label="Kab. Cirebon - Jawa Barat">
+<option value="?Kec=Greged_(Greget)&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009475">Greged (Greget) - Kab. Cirebon</option>
+<option value="?Kec=Losari&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009594">Losari - Kab. Cirebon</option>
+<option value="?Kec=Gebang&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009469">Gebang - Kab. Cirebon</option>
+<option value="?Kec=Pasaleman&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009672">Pasaleman - Kab. Cirebon</option>
+<option value="?Kec=Gegesik&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009472">Gegesik - Kab. Cirebon</option>
+<option value="?Kec=Gunung_Jati_(Cirebon_Utara)&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009477">Gunung Jati (Cirebon Utara) - Kab. Cirebon</option>
+<option value="?Kec=Gempol&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009474">Gempol - Kab. Cirebon</option>
+<option value="?Kec=Klangenan&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009557">Klangenan - Kab. Cirebon</option>
+<option value="?Kec=Arjawinangun&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009230">Arjawinangun - Kab. Cirebon</option>
+<option value="?Kec=Beber&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009260">Beber - Kab. Cirebon</option>
+<option value="?Kec=Talun_(Cirebon_Selatan)&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009798">Talun (Cirebon Selatan) - Kab. Cirebon</option>
+<option value="?Kec=Panguragan&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009660">Panguragan - Kab. Cirebon</option>
+<option value="?Kec=Sumber&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=501234">Sumber - Kab. Cirebon</option>
+<option value="?Kec=Pangenan&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009658">Pangenan - Kab. Cirebon</option>
+<option value="?Kec=Dukupuntang&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009463">Dukupuntang - Kab. Cirebon</option>
+<option value="?Kec=Sumber&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009784">Sumber - Kab. Cirebon</option>
+<option value="?Kec=Suranenggala&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009790">Suranenggala - Kab. Cirebon</option>
+<option value="?Kec=Ciwaringin&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009446">Ciwaringin - Kab. Cirebon</option>
+<option value="?Kec=Lemahabang&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009576">Lemahabang - Kab. Cirebon</option>
+<option value="?Kec=Susukan&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009792">Susukan - Kab. Cirebon</option>
+<option value="?Kec=Susukan_Lebak&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009793">Susukan Lebak - Kab. Cirebon</option>
+<option value="?Kec=Depok&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009461">Depok - Kab. Cirebon</option>
+<option value="?Kec=Palimanan&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009643">Palimanan - Kab. Cirebon</option>
+<option value="?Kec=Ciledug&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009391">Ciledug - Kab. Cirebon</option>
+<option value="?Kec=Plered&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009688">Plered - Kab. Cirebon</option>
+<option value="?Kec=Weru&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009845">Weru - Kab. Cirebon</option>
+<option value="?Kec=Waled&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009838">Waled - Kab. Cirebon</option>
+<option value="?Kec=Tengah_Tani&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009827">Tengah Tani - Kab. Cirebon</option>
+<option value="?Kec=Karangwareng&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009537">Karangwareng - Kab. Cirebon</option>
+<option value="?Kec=Pabuaran&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009628">Pabuaran - Kab. Cirebon</option>
+<option value="?Kec=Karangsembung&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009534">Karangsembung - Kab. Cirebon</option>
+<option value="?Kec=Pabedilan&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009627">Pabedilan - Kab. Cirebon</option>
+<option value="?Kec=Jamblang&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009493">Jamblang - Kab. Cirebon</option>
+<option value="?Kec=Kedawung_(Cirebon_Barat)&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009546">Kedawung (Cirebon Barat) - Kab. Cirebon</option>
+<option value="?Kec=Babakan&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009233">Babakan - Kab. Cirebon</option>
+<option value="?Kec=Astanajapura&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009232">Astanajapura - Kab. Cirebon</option>
+<option value="?Kec=Kaliwedi&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009525">Kaliwedi - Kab. Cirebon</option>
+<option value="?Kec=Sedong&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009728">Sedong - Kab. Cirebon</option>
+<option value="?Kec=Kapetakan&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009527">Kapetakan - Kab. Cirebon</option>
+<option value="?Kec=Plumbon&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009690">Plumbon - Kab. Cirebon</option>
+<option value="?Kec=Mundu&amp;kab=Kab._Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009618">Mundu - Kab. Cirebon</option>
+</optgroup>
+<optgroup label="Kab. Garut - Jawa Barat">
+<option value="?Kec=Sucinaraja&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009752">Sucinaraja - Kab. Garut</option>
+<option value="?Kec=Cisewu&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009439">Cisewu - Kab. Garut</option>
+<option value="?Kec=Peundeuy&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009687">Peundeuy - Kab. Garut</option>
+<option value="?Kec=Kadungora&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009518">Kadungora - Kab. Garut</option>
+<option value="?Kec=Caringin&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009297">Caringin - Kab. Garut</option>
+<option value="?Kec=Leles&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009575">Leles - Kab. Garut</option>
+<option value="?Kec=Cisompet&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009442">Cisompet - Kab. Garut</option>
+<option value="?Kec=Cisurupan&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009443">Cisurupan - Kab. Garut</option>
+<option value="?Kec=Pasirwangi&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009680">Pasirwangi - Kab. Garut</option>
+<option value="?Kec=Kersamanah&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009551">Kersamanah - Kab. Garut</option>
+<option value="?Kec=Selaawi&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009729">Selaawi - Kab. Garut</option>
+<option value="?Kec=Samarang&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009725">Samarang - Kab. Garut</option>
+<option value="?Kec=Banjarwangi&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009247">Banjarwangi - Kab. Garut</option>
+<option value="?Kec=Garut_Kota&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009468">Garut Kota - Kab. Garut</option>
+<option value="?Kec=Bungbulang&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009287">Bungbulang - Kab. Garut</option>
+<option value="?Kec=Cibalong&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009311">Cibalong - Kab. Garut</option>
+<option value="?Kec=Banyuresmi&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009252">Banyuresmi - Kab. Garut</option>
+<option value="?Kec=Cibatu&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009314">Cibatu - Kab. Garut</option>
+<option value="?Kec=Cikelet&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009379">Cikelet - Kab. Garut</option>
+<option value="?Kec=Karangtengah&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009536">Karangtengah - Kab. Garut</option>
+<option value="?Kec=Karangpawitan&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009533">Karangpawitan - Kab. Garut</option>
+<option value="?Kec=Singajaya&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009743">Singajaya - Kab. Garut</option>
+<option value="?Kec=Sukaresmi&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009773">Sukaresmi - Kab. Garut</option>
+<option value="?Kec=Cilawu&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009388">Cilawu - Kab. Garut</option>
+<option value="?Kec=Limbangan&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009590">Limbangan - Kab. Garut</option>
+<option value="?Kec=Bayongbong&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009259">Bayongbong - Kab. Garut</option>
+<option value="?Kec=Tarogong_Kidul&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009817">Tarogong Kidul - Kab. Garut</option>
+<option value="?Kec=Malangbong&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009601">Malangbong - Kab. Garut</option>
+<option value="?Kec=Garut&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=501224">Garut - Kab. Garut</option>
+<option value="?Kec=Tarogong_Kaler&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009816">Tarogong Kaler - Kab. Garut</option>
+<option value="?Kec=Pakenjeng&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009640">Pakenjeng - Kab. Garut</option>
+<option value="?Kec=Talegong&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009797">Talegong - Kab. Garut</option>
+<option value="?Kec=Mekarmukti&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009616">Mekarmukti - Kab. Garut</option>
+<option value="?Kec=Pameungpeuk&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009647">Pameungpeuk - Kab. Garut</option>
+<option value="?Kec=Pamulihan&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009649">Pamulihan - Kab. Garut</option>
+<option value="?Kec=Cigedug&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009348">Cigedug - Kab. Garut</option>
+<option value="?Kec=Cihurip&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009356">Cihurip - Kab. Garut</option>
+<option value="?Kec=Pangatikan&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009657">Pangatikan - Kab. Garut</option>
+<option value="?Kec=Leuwigoong&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009584">Leuwigoong - Kab. Garut</option>
+<option value="?Kec=Sukawening&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009781">Sukawening - Kab. Garut</option>
+<option value="?Kec=Cikajang&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009363">Cikajang - Kab. Garut</option>
+<option value="?Kec=Wanaraja&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009840">Wanaraja - Kab. Garut</option>
+<option value="?Kec=Cibiuk&amp;kab=Kab._Garut&amp;Prov=Jawa_Barat&amp;AreaID=5009328">Cibiuk - Kab. Garut</option>
+</optgroup>
+<optgroup label="Kab. Indramayu - Jawa Barat">
+<option value="?Kec=Jatibarang&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009500">Jatibarang - Kab. Indramayu</option>
+<option value="?Kec=Balongan&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009238">Balongan - Kab. Indramayu</option>
+<option value="?Kec=Kedokan_Bunder&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009547">Kedokan Bunder - Kab. Indramayu</option>
+<option value="?Kec=Indramayu&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=501225">Indramayu - Kab. Indramayu</option>
+<option value="?Kec=Kertasemaya&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009554">Kertasemaya - Kab. Indramayu</option>
+<option value="?Kec=Krangkeng&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009563">Krangkeng - Kab. Indramayu</option>
+<option value="?Kec=Bangodua&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009242">Bangodua - Kab. Indramayu</option>
+<option value="?Kec=Cikedung&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009378">Cikedung - Kab. Indramayu</option>
+<option value="?Kec=Widasari&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009846">Widasari - Kab. Indramayu</option>
+<option value="?Kec=Terisi&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009830">Terisi - Kab. Indramayu</option>
+<option value="?Kec=Pasekan&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009677">Pasekan - Kab. Indramayu</option>
+<option value="?Kec=Indramayu&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009489">Indramayu - Kab. Indramayu</option>
+<option value="?Kec=Haurgeulis&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009485">Haurgeulis - Kab. Indramayu</option>
+<option value="?Kec=Gantar&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009466">Gantar - Kab. Indramayu</option>
+<option value="?Kec=Gabuswetan&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009464">Gabuswetan - Kab. Indramayu</option>
+<option value="?Kec=Sliyeg&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009746">Sliyeg - Kab. Indramayu</option>
+<option value="?Kec=Anjatan&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009224">Anjatan - Kab. Indramayu</option>
+<option value="?Kec=Patrol&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009683">Patrol - Kab. Indramayu</option>
+<option value="?Kec=Bongas&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009284">Bongas - Kab. Indramayu</option>
+<option value="?Kec=Cantigi&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009295">Cantigi - Kab. Indramayu</option>
+<option value="?Kec=Karangampel&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009528">Karangampel - Kab. Indramayu</option>
+<option value="?Kec=Sukagumiwang&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009755">Sukagumiwang - Kab. Indramayu</option>
+<option value="?Kec=Lelea&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009573">Lelea - Kab. Indramayu</option>
+<option value="?Kec=Kandanghaur&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009526">Kandanghaur - Kab. Indramayu</option>
+<option value="?Kec=Tukdana&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009834">Tukdana - Kab. Indramayu</option>
+<option value="?Kec=Sindang&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009736">Sindang - Kab. Indramayu</option>
+<option value="?Kec=Losarang&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009593">Losarang - Kab. Indramayu</option>
+<option value="?Kec=Arahan&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009226">Arahan - Kab. Indramayu</option>
+<option value="?Kec=Kroya&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009564">Kroya - Kab. Indramayu</option>
+<option value="?Kec=Sukra&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009783">Sukra - Kab. Indramayu</option>
+<option value="?Kec=Lohbener&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009592">Lohbener - Kab. Indramayu</option>
+<option value="?Kec=Juntinyuat&amp;kab=Kab._Indramayu&amp;Prov=Jawa_Barat&amp;AreaID=5009512">Juntinyuat - Kab. Indramayu</option>
+</optgroup>
+<optgroup label="Kab. Karawang - Jawa Barat">
+<option value="?Kec=Ciampel&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009303">Ciampel - Kab. Karawang</option>
+<option value="?Kec=Tempuran&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009826">Tempuran - Kab. Karawang</option>
+<option value="?Kec=Jayakerta&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009510">Jayakerta - Kab. Karawang</option>
+<option value="?Kec=Jatisari&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009506">Jatisari - Kab. Karawang</option>
+<option value="?Kec=Pedes&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009685">Pedes - Kab. Karawang</option>
+<option value="?Kec=Karawang_Timur&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009539">Karawang Timur - Kab. Karawang</option>
+<option value="?Kec=Karawang_Barat&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009538">Karawang Barat - Kab. Karawang</option>
+<option value="?Kec=Purwasari&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009700">Purwasari - Kab. Karawang</option>
+<option value="?Kec=Cikampek&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009368">Cikampek - Kab. Karawang</option>
+<option value="?Kec=Tirtamulya&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009832">Tirtamulya - Kab. Karawang</option>
+<option value="?Kec=Tirtajaya&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009831">Tirtajaya - Kab. Karawang</option>
+<option value="?Kec=Telukjambe_Timur&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009825">Telukjambe Timur - Kab. Karawang</option>
+<option value="?Kec=Karawang&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=501226">Karawang - Kab. Karawang</option>
+<option value="?Kec=Pakisjaya&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009641">Pakisjaya - Kab. Karawang</option>
+<option value="?Kec=Klari&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009559">Klari - Kab. Karawang</option>
+<option value="?Kec=Kotabaru&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009561">Kotabaru - Kab. Karawang</option>
+<option value="?Kec=Kutawaluya&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009566">Kutawaluya - Kab. Karawang</option>
+<option value="?Kec=Cibuaya&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009330">Cibuaya - Kab. Karawang</option>
+<option value="?Kec=Banyusari&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009253">Banyusari - Kab. Karawang</option>
+<option value="?Kec=Batujaya&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009257">Batujaya - Kab. Karawang</option>
+<option value="?Kec=Pangkalan&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009659">Pangkalan - Kab. Karawang</option>
+<option value="?Kec=Lemahabang&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009577">Lemahabang - Kab. Karawang</option>
+<option value="?Kec=Majalaya&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009599">Majalaya - Kab. Karawang</option>
+<option value="?Kec=Tegalwaru&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009821">Tegalwaru - Kab. Karawang</option>
+<option value="?Kec=Rawamerta&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009714">Rawamerta - Kab. Karawang</option>
+<option value="?Kec=Rengasdengklok&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009716">Rengasdengklok - Kab. Karawang</option>
+<option value="?Kec=Telukjambe_Barat&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009824">Telukjambe Barat - Kab. Karawang</option>
+<option value="?Kec=Telagasari&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009823">Telagasari - Kab. Karawang</option>
+<option value="?Kec=Cilamaya_Kulon&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009386">Cilamaya Kulon - Kab. Karawang</option>
+<option value="?Kec=Cilebar&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009390">Cilebar - Kab. Karawang</option>
+<option value="?Kec=Cilamaya_Wetan&amp;kab=Kab._Karawang&amp;Prov=Jawa_Barat&amp;AreaID=5009387">Cilamaya Wetan - Kab. Karawang</option>
+</optgroup>
+<optgroup label="Kab. Kuningan - Jawa Barat">
+<option value="?Kec=Karangkancana&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009531">Karangkancana - Kab. Kuningan</option>
+<option value="?Kec=Maleber&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009603">Maleber - Kab. Kuningan</option>
+<option value="?Kec=Luragung&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009596">Luragung - Kab. Kuningan</option>
+<option value="?Kec=Mandirancan&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009606">Mandirancan - Kab. Kuningan</option>
+<option value="?Kec=Pancalang&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009652">Pancalang - Kab. Kuningan</option>
+<option value="?Kec=Nusaherang&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009625">Nusaherang - Kab. Kuningan</option>
+<option value="?Kec=Lebakwangi&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009571">Lebakwangi - Kab. Kuningan</option>
+<option value="?Kec=Kramatmulya&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009562">Kramatmulya - Kab. Kuningan</option>
+<option value="?Kec=Kuningan&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009565">Kuningan - Kab. Kuningan</option>
+<option value="?Kec=Pasawahan&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009673">Pasawahan - Kab. Kuningan</option>
+<option value="?Kec=Ciniru&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009414">Ciniru - Kab. Kuningan</option>
+<option value="?Kec=Jalaksana&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009490">Jalaksana - Kab. Kuningan</option>
+<option value="?Kec=Hantara&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009483">Hantara - Kab. Kuningan</option>
+<option value="?Kec=Cilebak&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009389">Cilebak - Kab. Kuningan</option>
+<option value="?Kec=Ciawigebang&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009309">Ciawigebang - Kab. Kuningan</option>
+<option value="?Kec=Selajambe&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009730">Selajambe - Kab. Kuningan</option>
+<option value="?Kec=Cidahu&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009339">Cidahu - Kab. Kuningan</option>
+<option value="?Kec=Garawangi&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009467">Garawangi - Kab. Kuningan</option>
+<option value="?Kec=Cilimus&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009396">Cilimus - Kab. Kuningan</option>
+<option value="?Kec=Sindangagung&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009738">Sindangagung - Kab. Kuningan</option>
+<option value="?Kec=Darma&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009456">Darma - Kab. Kuningan</option>
+<option value="?Kec=Ciwaru&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009447">Ciwaru - Kab. Kuningan</option>
+<option value="?Kec=Subang&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009750">Subang - Kab. Kuningan</option>
+<option value="?Kec=Cimahi&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009398">Cimahi - Kab. Kuningan</option>
+<option value="?Kec=Kuningan&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=501227">Kuningan - Kab. Kuningan</option>
+<option value="?Kec=Cibingbin&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009322">Cibingbin - Kab. Kuningan</option>
+<option value="?Kec=Japara&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009496">Japara - Kab. Kuningan</option>
+<option value="?Kec=Cigandamekar&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009346">Cigandamekar - Kab. Kuningan</option>
+<option value="?Kec=Cigugur&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009351">Cigugur - Kab. Kuningan</option>
+<option value="?Kec=Kadugede&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009517">Kadugede - Kab. Kuningan</option>
+<option value="?Kec=Cipicung&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009425">Cipicung - Kab. Kuningan</option>
+<option value="?Kec=Cibeureum&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009319">Cibeureum - Kab. Kuningan</option>
+<option value="?Kec=Kalimanggis&amp;kab=Kab._Kuningan&amp;Prov=Jawa_Barat&amp;AreaID=5009523">Kalimanggis - Kab. Kuningan</option>
+</optgroup>
+<optgroup label="Kab. Majalengka - Jawa Barat">
+<option value="?Kec=Sukahaji&amp;kab=Kab._Majalengka&amp;Prov=Jawa_Barat&amp;AreaID=5009756">Sukahaji - Kab. Majalengka</option>
+<option value="?Kec=Panyingkiran&amp;kab=Kab._Majalengka&amp;Prov=Jawa_Barat&amp;AreaID=5009664">Panyingkiran - Kab. Majalengka</option>
+<option value="?Kec=Kadipaten&amp;kab=Kab._Majalengka&amp;Prov=Jawa_Barat&amp;AreaID=5009514">Kadipaten - Kab. Majalengka</option>
+<option value="?Kec=Sumberjaya&amp;kab=Kab._Majalengka&amp;Prov=Jawa_Barat&amp;AreaID=5009785">Sumberjaya - Kab. Majalengka</option>
+<option value="?Kec=Bantarujeg&amp;kab=Kab._Majalengka&amp;Prov=Jawa_Barat&amp;AreaID=5009251">Bantarujeg - Kab. Majalengka</option>
+<option value="?Kec=Maja&amp;kab=Kab._Majalengka&amp;Prov=Jawa_Barat&amp;AreaID=5009597">Maja - Kab. Majalengka</option>
+<option value="?Kec=Cingambul&amp;kab=Kab._Majalengka&amp;Prov=Jawa_Barat&amp;AreaID=5009413">Cingambul - Kab. Majalengka</option>
+<option value="?Kec=Lemahsugih&amp;kab=Kab._Majalengka&amp;Prov=Jawa_Barat&amp;AreaID=5009578">Lemahsugih - Kab. Majalengka</option>
+<option value="?Kec=Banjaran&amp;kab=Kab._Majalengka&amp;Prov=Jawa_Barat&amp;AreaID=5009245">Banjaran - Kab. Majalengka</option>
+<option value="?Kec=Majalengka&amp;kab=Kab._Majalengka&amp;Prov=Jawa_Barat&amp;AreaID=501228">Majalengka - Kab. Majalengka</option>
+<option value="?Kec=Jatiwangi&amp;kab=Kab._Majalengka&amp;Prov=Jawa_Barat&amp;AreaID=5009508">Jatiwangi - Kab. Majalengka</option>
+<option value="?Kec=Talaga&amp;kab=Kab._Majalengka&amp;Prov=Jawa_Barat&amp;AreaID=5009796">Talaga - Kab. Majalengka</option>
+<option value="?Kec=Leuwimunding&amp;kab=Kab._Majalengka&amp;Prov=Jawa_Barat&amp;AreaID=5009586">Leuwimunding - Kab. Majalengka</option>
+<option value="?Kec=Cigasong&amp;kab=Kab._Majalengka&amp;Prov=Jawa_Barat&amp;AreaID=5009347">Cigasong - Kab. Majalengka</option>
+<option value="?Kec=Ligung&amp;kab=Kab._Majalengka&amp;Prov=Jawa_Barat&amp;AreaID=5009589">Ligung - Kab. Majalengka</option>
+<option value="?Kec=Sindangwangi&amp;kab=Kab._Majalengka&amp;Prov=Jawa_Barat&amp;AreaID=5009742">Sindangwangi - Kab. Majalengka</option>
+<option value="?Kec=Palasah&amp;kab=Kab._Majalengka&amp;Prov=Jawa_Barat&amp;AreaID=5009642">Palasah - Kab. Majalengka</option>
+<option value="?Kec=Kasokandel&amp;kab=Kab._Majalengka&amp;Prov=Jawa_Barat&amp;AreaID=5009540">Kasokandel - Kab. Majalengka</option>
+<option value="?Kec=Argapura&amp;kab=Kab._Majalengka&amp;Prov=Jawa_Barat&amp;AreaID=5009228">Argapura - Kab. Majalengka</option>
+<option value="?Kec=Cikijing&amp;kab=Kab._Majalengka&amp;Prov=Jawa_Barat&amp;AreaID=5009382">Cikijing - Kab. Majalengka</option>
+<option value="?Kec=Jatitujuh&amp;kab=Kab._Majalengka&amp;Prov=Jawa_Barat&amp;AreaID=5009507">Jatitujuh - Kab. Majalengka</option>
+<option value="?Kec=Kertajati&amp;kab=Kab._Majalengka&amp;Prov=Jawa_Barat&amp;AreaID=5009552">Kertajati - Kab. Majalengka</option>
+<option value="?Kec=Malausma&amp;kab=Kab._Majalengka&amp;Prov=Jawa_Barat&amp;AreaID=5009602">Malausma - Kab. Majalengka</option>
+<option value="?Kec=Sindang&amp;kab=Kab._Majalengka&amp;Prov=Jawa_Barat&amp;AreaID=5009737">Sindang - Kab. Majalengka</option>
+<option value="?Kec=Dawuan&amp;kab=Kab._Majalengka&amp;Prov=Jawa_Barat&amp;AreaID=5009458">Dawuan - Kab. Majalengka</option>
+<option value="?Kec=Rajagaluh&amp;kab=Kab._Majalengka&amp;Prov=Jawa_Barat&amp;AreaID=5009705">Rajagaluh - Kab. Majalengka</option>
+<option value="?Kec=Majalengka&amp;kab=Kab._Majalengka&amp;Prov=Jawa_Barat&amp;AreaID=5009600">Majalengka - Kab. Majalengka</option>
+</optgroup>
+<optgroup label="Kab. Pangandaran - Jawa Barat">
+<option value="?Kec=Cimerak&amp;kab=Kab._Pangandaran&amp;Prov=Jawa_Barat&amp;AreaID=5009409">Cimerak - Kab. Pangandaran</option>
+<option value="?Kec=Padaherang&amp;kab=Kab._Pangandaran&amp;Prov=Jawa_Barat&amp;AreaID=5009633">Padaherang - Kab. Pangandaran</option>
+<option value="?Kec=Pangandaran&amp;kab=Kab._Pangandaran&amp;Prov=Jawa_Barat&amp;AreaID=5009656">Pangandaran - Kab. Pangandaran</option>
+<option value="?Kec=Mangunjaya&amp;kab=Kab._Pangandaran&amp;Prov=Jawa_Barat&amp;AreaID=5009608">Mangunjaya - Kab. Pangandaran</option>
+<option value="?Kec=Parigi&amp;kab=Kab._Pangandaran&amp;Prov=Jawa_Barat&amp;AreaID=5009666">Parigi - Kab. Pangandaran</option>
+<option value="?Kec=Cigugur&amp;kab=Kab._Pangandaran&amp;Prov=Jawa_Barat&amp;AreaID=5009352">Cigugur - Kab. Pangandaran</option>
+<option value="?Kec=Kalipucang&amp;kab=Kab._Pangandaran&amp;Prov=Jawa_Barat&amp;AreaID=5009524">Kalipucang - Kab. Pangandaran</option>
+<option value="?Kec=Cijulang&amp;kab=Kab._Pangandaran&amp;Prov=Jawa_Barat&amp;AreaID=5009361">Cijulang - Kab. Pangandaran</option>
+<option value="?Kec=Parigi&amp;kab=Kab._Pangandaran&amp;Prov=Jawa_Barat&amp;AreaID=5002252">Parigi - Kab. Pangandaran</option>
+<option value="?Kec=Sidamulih&amp;kab=Kab._Pangandaran&amp;Prov=Jawa_Barat&amp;AreaID=5009734">Sidamulih - Kab. Pangandaran</option>
+<option value="?Kec=Langkaplancar&amp;kab=Kab._Pangandaran&amp;Prov=Jawa_Barat&amp;AreaID=5009570">Langkaplancar - Kab. Pangandaran</option>
+</optgroup>
+<optgroup label="Kab. Purwakarta - Jawa Barat">
+<option value="?Kec=Wanayasa&amp;kab=Kab._Purwakarta&amp;Prov=Jawa_Barat&amp;AreaID=5009841">Wanayasa - Kab. Purwakarta</option>
+<option value="?Kec=Cikao&amp;kab=Kab._Purwakarta&amp;Prov=Jawa_Barat&amp;AreaID=5009370">Cikao - Kab. Purwakarta</option>
+<option value="?Kec=Maniis&amp;kab=Kab._Purwakarta&amp;Prov=Jawa_Barat&amp;AreaID=5009610">Maniis - Kab. Purwakarta</option>
+<option value="?Kec=Tegalwaru&amp;kab=Kab._Purwakarta&amp;Prov=Jawa_Barat&amp;AreaID=5009822">Tegalwaru - Kab. Purwakarta</option>
+<option value="?Kec=Purwakarta&amp;kab=Kab._Purwakarta&amp;Prov=Jawa_Barat&amp;AreaID=501230">Purwakarta - Kab. Purwakarta</option>
+<option value="?Kec=Pasawahan&amp;kab=Kab._Purwakarta&amp;Prov=Jawa_Barat&amp;AreaID=5009674">Pasawahan - Kab. Purwakarta</option>
+<option value="?Kec=Bungursari&amp;kab=Kab._Purwakarta&amp;Prov=Jawa_Barat&amp;AreaID=5009288">Bungursari - Kab. Purwakarta</option>
+<option value="?Kec=Purwakarta&amp;kab=Kab._Purwakarta&amp;Prov=Jawa_Barat&amp;AreaID=5009699">Purwakarta - Kab. Purwakarta</option>
+<option value="?Kec=Kiara_Pedes&amp;kab=Kab._Purwakarta&amp;Prov=Jawa_Barat&amp;AreaID=5009555">Kiara Pedes - Kab. Purwakarta</option>
+<option value="?Kec=Darangdan&amp;kab=Kab._Purwakarta&amp;Prov=Jawa_Barat&amp;AreaID=5009455">Darangdan - Kab. Purwakarta</option>
+<option value="?Kec=Cibatu&amp;kab=Kab._Purwakarta&amp;Prov=Jawa_Barat&amp;AreaID=5009315">Cibatu - Kab. Purwakarta</option>
+<option value="?Kec=Pondok_Salam&amp;kab=Kab._Purwakarta&amp;Prov=Jawa_Barat&amp;AreaID=5009693">Pondok Salam - Kab. Purwakarta</option>
+<option value="?Kec=Jatiluhur&amp;kab=Kab._Purwakarta&amp;Prov=Jawa_Barat&amp;AreaID=5009502">Jatiluhur - Kab. Purwakarta</option>
+<option value="?Kec=Bojong&amp;kab=Kab._Purwakarta&amp;Prov=Jawa_Barat&amp;AreaID=5009273">Bojong - Kab. Purwakarta</option>
+<option value="?Kec=Campaka&amp;kab=Kab._Purwakarta&amp;Prov=Jawa_Barat&amp;AreaID=5009292">Campaka - Kab. Purwakarta</option>
+<option value="?Kec=Sukatani&amp;kab=Kab._Purwakarta&amp;Prov=Jawa_Barat&amp;AreaID=5009779">Sukatani - Kab. Purwakarta</option>
+<option value="?Kec=Plered&amp;kab=Kab._Purwakarta&amp;Prov=Jawa_Barat&amp;AreaID=5009689">Plered - Kab. Purwakarta</option>
+<option value="?Kec=Sukasari&amp;kab=Kab._Purwakarta&amp;Prov=Jawa_Barat&amp;AreaID=5009774">Sukasari - Kab. Purwakarta</option>
+</optgroup>
+<optgroup label="Kab. Subang - Jawa Barat">
+<option value="?Kec=Purwadadi&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009697">Purwadadi - Kab. Subang</option>
+<option value="?Kec=Binong&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009266">Binong - Kab. Subang</option>
+<option value="?Kec=Pabuaran&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009629">Pabuaran - Kab. Subang</option>
+<option value="?Kec=Pusakajaya&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009701">Pusakajaya - Kab. Subang</option>
+<option value="?Kec=Pagaden&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009636">Pagaden - Kab. Subang</option>
+<option value="?Kec=Patok_Beusi&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009682">Patok Beusi - Kab. Subang</option>
+<option value="?Kec=Pagaden_Barat&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009637">Pagaden Barat - Kab. Subang</option>
+<option value="?Kec=Tanjung_Siang&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009808">Tanjung Siang - Kab. Subang</option>
+<option value="?Kec=Subang&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=501233">Subang - Kab. Subang</option>
+<option value="?Kec=Tambakdahan&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009801">Tambakdahan - Kab. Subang</option>
+<option value="?Kec=Sukasari&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009775">Sukasari - Kab. Subang</option>
+<option value="?Kec=Subang&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009751">Subang - Kab. Subang</option>
+<option value="?Kec=Pamanukan&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009644">Pamanukan - Kab. Subang</option>
+<option value="?Kec=Serangpanjang&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009732">Serangpanjang - Kab. Subang</option>
+<option value="?Kec=Ciater&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009306">Ciater - Kab. Subang</option>
+<option value="?Kec=Sagalaherang&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009720">Sagalaherang - Kab. Subang</option>
+<option value="?Kec=Pusakanagara&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009702">Pusakanagara - Kab. Subang</option>
+<option value="?Kec=Blanakan&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009267">Blanakan - Kab. Subang</option>
+<option value="?Kec=Legon_Kulon&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009572">Legon Kulon - Kab. Subang</option>
+<option value="?Kec=Kalijati&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009522">Kalijati - Kab. Subang</option>
+<option value="?Kec=Cibogo&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009329">Cibogo - Kab. Subang</option>
+<option value="?Kec=Cikaum&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009377">Cikaum - Kab. Subang</option>
+<option value="?Kec=Kasomalang&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009541">Kasomalang - Kab. Subang</option>
+<option value="?Kec=Jalan_Cagak&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009491">Jalan Cagak - Kab. Subang</option>
+<option value="?Kec=Cipeundeuy&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009424">Cipeundeuy - Kab. Subang</option>
+<option value="?Kec=Cipunagara&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009427">Cipunagara - Kab. Subang</option>
+<option value="?Kec=Ciasem&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009305">Ciasem - Kab. Subang</option>
+<option value="?Kec=Compreng&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009450">Compreng - Kab. Subang</option>
+<option value="?Kec=Cijambe&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009357">Cijambe - Kab. Subang</option>
+<option value="?Kec=Dawuan&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009459">Dawuan - Kab. Subang</option>
+<option value="?Kec=Cisalak&amp;kab=Kab._Subang&amp;Prov=Jawa_Barat&amp;AreaID=5009433">Cisalak - Kab. Subang</option>
+</optgroup>
+<optgroup label="Kab. Sukabumi - Jawa Barat">
+<option value="?Kec=Cicantayan&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009334">Cicantayan - Kab. Sukabumi</option>
+<option value="?Kec=Kadudampit&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009516">Kadudampit - Kab. Sukabumi</option>
+<option value="?Kec=Kabandungan&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009513">Kabandungan - Kab. Sukabumi</option>
+<option value="?Kec=Caringin&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009298">Caringin - Kab. Sukabumi</option>
+<option value="?Kec=Purabaya&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009694">Purabaya - Kab. Sukabumi</option>
+<option value="?Kec=Cibadak&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009310">Cibadak - Kab. Sukabumi</option>
+<option value="?Kec=Kalapanunggal&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009520">Kalapanunggal - Kab. Sukabumi</option>
+<option value="?Kec=Kalibunder&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009521">Kalibunder - Kab. Sukabumi</option>
+<option value="?Kec=Pelabuhan_Ratu&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=501229">Pelabuhan Ratu - Kab. Sukabumi</option>
+<option value="?Kec=Kebonpedes&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009545">Kebonpedes - Kab. Sukabumi</option>
+<option value="?Kec=Bantargadung&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009249">Bantargadung - Kab. Sukabumi</option>
+<option value="?Kec=Cimanggu&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009404">Cimanggu - Kab. Sukabumi</option>
+<option value="?Kec=Ciambar&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009300">Ciambar - Kab. Sukabumi</option>
+<option value="?Kec=Cisolok&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009441">Cisolok - Kab. Sukabumi</option>
+<option value="?Kec=Sukalarang&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009761">Sukalarang - Kab. Sukabumi</option>
+<option value="?Kec=Gunung_Guruh&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009476">Gunung Guruh - Kab. Sukabumi</option>
+<option value="?Kec=Cisaat&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009431">Cisaat - Kab. Sukabumi</option>
+<option value="?Kec=Cireunghas&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009430">Cireunghas - Kab. Sukabumi</option>
+<option value="?Kec=Sagaranten&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009721">Sagaranten - Kab. Sukabumi</option>
+<option value="?Kec=Ciracap&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009428">Ciracap - Kab. Sukabumi</option>
+<option value="?Kec=Geger_Bitung&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009471">Geger Bitung - Kab. Sukabumi</option>
+<option value="?Kec=Curugkembar&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009454">Curugkembar - Kab. Sukabumi</option>
+<option value="?Kec=Cibitung&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009327">Cibitung - Kab. Sukabumi</option>
+<option value="?Kec=Jampangkulon&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009494">Jampangkulon - Kab. Sukabumi</option>
+<option value="?Kec=Sukaraja&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009767">Sukaraja - Kab. Sukabumi</option>
+<option value="?Kec=Simpenan&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009735">Simpenan - Kab. Sukabumi</option>
+<option value="?Kec=Jampangtengah&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009495">Jampangtengah - Kab. Sukabumi</option>
+<option value="?Kec=Surade&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009789">Surade - Kab. Sukabumi</option>
+<option value="?Kec=Parungkuda&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009670">Parungkuda - Kab. Sukabumi</option>
+<option value="?Kec=Parakan_Salak&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009665">Parakan Salak - Kab. Sukabumi</option>
+<option value="?Kec=Cicurug&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009336">Cicurug - Kab. Sukabumi</option>
+<option value="?Kec=Waluran&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009839">Waluran - Kab. Sukabumi</option>
+<option value="?Kec=Tegal_Buleud&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009820">Tegal Buleud - Kab. Sukabumi</option>
+<option value="?Kec=Bojong_Genteng&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009274">Bojong Genteng - Kab. Sukabumi</option>
+<option value="?Kec=Ciemas&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009344">Ciemas - Kab. Sukabumi</option>
+<option value="?Kec=Cikembar&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009380">Cikembar - Kab. Sukabumi</option>
+<option value="?Kec=Cidadap&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009337">Cidadap - Kab. Sukabumi</option>
+<option value="?Kec=Lengkong&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009582">Lengkong - Kab. Sukabumi</option>
+<option value="?Kec=Cidahu&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009340">Cidahu - Kab. Sukabumi</option>
+<option value="?Kec=Pabuaran&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009630">Pabuaran - Kab. Sukabumi</option>
+<option value="?Kec=Cikidang&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009381">Cikidang - Kab. Sukabumi</option>
+<option value="?Kec=Warung_Kiara&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009843">Warung Kiara - Kab. Sukabumi</option>
+<option value="?Kec=Sukabumi&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=501222">Sukabumi - Kab. Sukabumi</option>
+<option value="?Kec=Nagrak&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009620">Nagrak - Kab. Sukabumi</option>
+<option value="?Kec=Nyalindung&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009626">Nyalindung - Kab. Sukabumi</option>
+<option value="?Kec=Cidolog&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009343">Cidolog - Kab. Sukabumi</option>
+<option value="?Kec=Cikakak&amp;kab=Kab._Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009364">Cikakak - Kab. Sukabumi</option>
+</optgroup>
+<optgroup label="Kab. Sumedang - Jawa Barat">
+<option value="?Kec=Rancakalong&amp;kab=Kab._Sumedang&amp;Prov=Jawa_Barat&amp;AreaID=5009711">Rancakalong - Kab. Sumedang</option>
+<option value="?Kec=Sumedang_Utara&amp;kab=Kab._Sumedang&amp;Prov=Jawa_Barat&amp;AreaID=5009787">Sumedang Utara - Kab. Sumedang</option>
+<option value="?Kec=Jatigede&amp;kab=Kab._Sumedang&amp;Prov=Jawa_Barat&amp;AreaID=5009501">Jatigede - Kab. Sumedang</option>
+<option value="?Kec=Tomo&amp;kab=Kab._Sumedang&amp;Prov=Jawa_Barat&amp;AreaID=5009833">Tomo - Kab. Sumedang</option>
+<option value="?Kec=Sumedang_Selatan&amp;kab=Kab._Sumedang&amp;Prov=Jawa_Barat&amp;AreaID=5009786">Sumedang Selatan - Kab. Sumedang</option>
+<option value="?Kec=Sukasari&amp;kab=Kab._Sumedang&amp;Prov=Jawa_Barat&amp;AreaID=5009776">Sukasari - Kab. Sumedang</option>
+<option value="?Kec=Cisarua&amp;kab=Kab._Sumedang&amp;Prov=Jawa_Barat&amp;AreaID=5009436">Cisarua - Kab. Sumedang</option>
+<option value="?Kec=Cisitu&amp;kab=Kab._Sumedang&amp;Prov=Jawa_Barat&amp;AreaID=5009440">Cisitu - Kab. Sumedang</option>
+<option value="?Kec=Situraja&amp;kab=Kab._Sumedang&amp;Prov=Jawa_Barat&amp;AreaID=5009745">Situraja - Kab. Sumedang</option>
+<option value="?Kec=Congeang&amp;kab=Kab._Sumedang&amp;Prov=Jawa_Barat&amp;AreaID=5009451">Congeang - Kab. Sumedang</option>
+<option value="?Kec=Darmajaya&amp;kab=Kab._Sumedang&amp;Prov=Jawa_Barat&amp;AreaID=5009457">Darmajaya - Kab. Sumedang</option>
+<option value="?Kec=Ganeas&amp;kab=Kab._Sumedang&amp;Prov=Jawa_Barat&amp;AreaID=5009465">Ganeas - Kab. Sumedang</option>
+<option value="?Kec=Sumedang&amp;kab=Kab._Sumedang&amp;Prov=Jawa_Barat&amp;AreaID=501235">Sumedang - Kab. Sumedang</option>
+<option value="?Kec=Wado&amp;kab=Kab._Sumedang&amp;Prov=Jawa_Barat&amp;AreaID=5009837">Wado - Kab. Sumedang</option>
+<option value="?Kec=Ujung_Jaya&amp;kab=Kab._Sumedang&amp;Prov=Jawa_Barat&amp;AreaID=5009835">Ujung Jaya - Kab. Sumedang</option>
+<option value="?Kec=Pamulihan&amp;kab=Kab._Sumedang&amp;Prov=Jawa_Barat&amp;AreaID=5009650">Pamulihan - Kab. Sumedang</option>
+<option value="?Kec=Jatinangor&amp;kab=Kab._Sumedang&amp;Prov=Jawa_Barat&amp;AreaID=5009504">Jatinangor - Kab. Sumedang</option>
+<option value="?Kec=Surian&amp;kab=Kab._Sumedang&amp;Prov=Jawa_Barat&amp;AreaID=5009791">Surian - Kab. Sumedang</option>
+<option value="?Kec=Tanjungsari&amp;kab=Kab._Sumedang&amp;Prov=Jawa_Barat&amp;AreaID=5009813">Tanjungsari - Kab. Sumedang</option>
+<option value="?Kec=Cimalaka&amp;kab=Kab._Sumedang&amp;Prov=Jawa_Barat&amp;AreaID=5009402">Cimalaka - Kab. Sumedang</option>
+<option value="?Kec=Paseh&amp;kab=Kab._Sumedang&amp;Prov=Jawa_Barat&amp;AreaID=5009676">Paseh - Kab. Sumedang</option>
+<option value="?Kec=Tanjungmedar&amp;kab=Kab._Sumedang&amp;Prov=Jawa_Barat&amp;AreaID=5009811">Tanjungmedar - Kab. Sumedang</option>
+<option value="?Kec=Cimanggung&amp;kab=Kab._Sumedang&amp;Prov=Jawa_Barat&amp;AreaID=5009405">Cimanggung - Kab. Sumedang</option>
+<option value="?Kec=Cibugel&amp;kab=Kab._Sumedang&amp;Prov=Jawa_Barat&amp;AreaID=5009331">Cibugel - Kab. Sumedang</option>
+<option value="?Kec=Buahdua&amp;kab=Kab._Sumedang&amp;Prov=Jawa_Barat&amp;AreaID=5009286">Buahdua - Kab. Sumedang</option>
+<option value="?Kec=Jatinunggal&amp;kab=Kab._Sumedang&amp;Prov=Jawa_Barat&amp;AreaID=5009505">Jatinunggal - Kab. Sumedang</option>
+<option value="?Kec=Tanjungkerta&amp;kab=Kab._Sumedang&amp;Prov=Jawa_Barat&amp;AreaID=5009810">Tanjungkerta - Kab. Sumedang</option>
+</optgroup>
+<optgroup label="Kab. Tasikmalaya - Jawa Barat">
+<option value="?Kec=Sukarame&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009769">Sukarame - Kab. Tasikmalaya</option>
+<option value="?Kec=Ciawi&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009308">Ciawi - Kab. Tasikmalaya</option>
+<option value="?Kec=Taraju&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009815">Taraju - Kab. Tasikmalaya</option>
+<option value="?Kec=Sukaratu&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009770">Sukaratu - Kab. Tasikmalaya</option>
+<option value="?Kec=Karangjaya&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009530">Karangjaya - Kab. Tasikmalaya</option>
+<option value="?Kec=Karangnunggal&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009532">Karangnunggal - Kab. Tasikmalaya</option>
+<option value="?Kec=Culamega&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009453">Culamega - Kab. Tasikmalaya</option>
+<option value="?Kec=Sukahening&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009757">Sukahening - Kab. Tasikmalaya</option>
+<option value="?Kec=Cisayong&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009437">Cisayong - Kab. Tasikmalaya</option>
+<option value="?Kec=Bantarkalong&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009250">Bantarkalong - Kab. Tasikmalaya</option>
+<option value="?Kec=Parungponteng&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009671">Parungponteng - Kab. Tasikmalaya</option>
+<option value="?Kec=Tanjungjaya&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009809">Tanjungjaya - Kab. Tasikmalaya</option>
+<option value="?Kec=Sukaraja&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009768">Sukaraja - Kab. Tasikmalaya</option>
+<option value="?Kec=Sodonghilir&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009747">Sodonghilir - Kab. Tasikmalaya</option>
+<option value="?Kec=Sukaresik&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009771">Sukaresik - Kab. Tasikmalaya</option>
+<option value="?Kec=Singaparna&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009744">Singaparna - Kab. Tasikmalaya</option>
+<option value="?Kec=Padakembang&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009634">Padakembang - Kab. Tasikmalaya</option>
+<option value="?Kec=Cikalong&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009365">Cikalong - Kab. Tasikmalaya</option>
+<option value="?Kec=Sariwangi&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009726">Sariwangi - Kab. Tasikmalaya</option>
+<option value="?Kec=Cipatujah&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009420">Cipatujah - Kab. Tasikmalaya</option>
+<option value="?Kec=Jamanis&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009492">Jamanis - Kab. Tasikmalaya</option>
+<option value="?Kec=Jatiwaras&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009509">Jatiwaras - Kab. Tasikmalaya</option>
+<option value="?Kec=Salopa&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009724">Salopa - Kab. Tasikmalaya</option>
+<option value="?Kec=Singaparna&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=501231">Singaparna - Kab. Tasikmalaya</option>
+<option value="?Kec=Cineam&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009411">Cineam - Kab. Tasikmalaya</option>
+<option value="?Kec=Cikatomas&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009376">Cikatomas - Kab. Tasikmalaya</option>
+<option value="?Kec=Rajapolah&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009706">Rajapolah - Kab. Tasikmalaya</option>
+<option value="?Kec=Bojongasih&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009275">Bojongasih - Kab. Tasikmalaya</option>
+<option value="?Kec=Bojonggambir&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009276">Bojonggambir - Kab. Tasikmalaya</option>
+<option value="?Kec=Puspahiang&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009703">Puspahiang - Kab. Tasikmalaya</option>
+<option value="?Kec=Mangunreja&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009609">Mangunreja - Kab. Tasikmalaya</option>
+<option value="?Kec=Pancatengah&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009653">Pancatengah - Kab. Tasikmalaya</option>
+<option value="?Kec=Pagerageung&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009639">Pagerageung - Kab. Tasikmalaya</option>
+<option value="?Kec=Gunungtanjung&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009482">Gunungtanjung - Kab. Tasikmalaya</option>
+<option value="?Kec=Leuwisari&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009588">Leuwisari - Kab. Tasikmalaya</option>
+<option value="?Kec=Salawu&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009723">Salawu - Kab. Tasikmalaya</option>
+<option value="?Kec=Cibalong&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009312">Cibalong - Kab. Tasikmalaya</option>
+<option value="?Kec=Manonjaya&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009611">Manonjaya - Kab. Tasikmalaya</option>
+<option value="?Kec=Kadipaten&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009515">Kadipaten - Kab. Tasikmalaya</option>
+<option value="?Kec=Cigalontang&amp;kab=Kab._Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009345">Cigalontang - Kab. Tasikmalaya</option>
+</optgroup>
+<optgroup label="Kota Bandung - Jawa Barat">
+<option value="?Kec=Cidadap&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009338">Cidadap - Kota Bandung</option>
+<option value="?Kec=Cibeunying_Kidul&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009318">Cibeunying Kidul - Kota Bandung</option>
+<option value="?Kec=Ujungberung&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009836">Ujungberung - Kota Bandung</option>
+<option value="?Kec=Sukasari&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009777">Sukasari - Kota Bandung</option>
+<option value="?Kec=Cicendo&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009335">Cicendo - Kota Bandung</option>
+<option value="?Kec=Sumurbandung&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009788">Sumurbandung - Kota Bandung</option>
+<option value="?Kec=Cinambo&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009410">Cinambo - Kota Bandung</option>
+<option value="?Kec=Bandung&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=501212">Bandung - Kota Bandung</option>
+<option value="?Kec=Sukajadi&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009758">Sukajadi - Kota Bandung</option>
+<option value="?Kec=Cibeunying_Kaler&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009317">Cibeunying Kaler - Kota Bandung</option>
+<option value="?Kec=Gedebage&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009470">Gedebage - Kota Bandung</option>
+<option value="?Kec=Cibiru&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009325">Cibiru - Kota Bandung</option>
+<option value="?Kec=Bojongloa_Kaler&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009278">Bojongloa Kaler - Kota Bandung</option>
+<option value="?Kec=Bandung_Kulon&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009240">Bandung Kulon - Kota Bandung</option>
+<option value="?Kec=Astanaanyar&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009231">Astanaanyar - Kota Bandung</option>
+<option value="?Kec=Bandung_Kidul&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009239">Bandung Kidul - Kota Bandung</option>
+<option value="?Kec=Rancasari&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009712">Rancasari - Kota Bandung</option>
+<option value="?Kec=Babakanciparay&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009235">Babakanciparay - Kota Bandung</option>
+<option value="?Kec=Mandalajati&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009604">Mandalajati - Kota Bandung</option>
+<option value="?Kec=Bojongloa_Kidul&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009279">Bojongloa Kidul - Kota Bandung</option>
+<option value="?Kec=Arcamanik&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009227">Arcamanik - Kota Bandung</option>
+<option value="?Kec=Antapani&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009225">Antapani - Kota Bandung</option>
+<option value="?Kec=Batununggal&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009258">Batununggal - Kota Bandung</option>
+<option value="?Kec=Kiaracondong&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009556">Kiaracondong - Kota Bandung</option>
+<option value="?Kec=Panyileukan&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009663">Panyileukan - Kota Bandung</option>
+<option value="?Kec=Lengkong&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009583">Lengkong - Kota Bandung</option>
+<option value="?Kec=Bandung_Wetan&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009241">Bandung Wetan - Kota Bandung</option>
+<option value="?Kec=Buahbatu&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009285">Buahbatu - Kota Bandung</option>
+<option value="?Kec=Andir&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009223">Andir - Kota Bandung</option>
+<option value="?Kec=Coblong&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009449">Coblong - Kota Bandung</option>
+<option value="?Kec=Regol&amp;kab=Kota_Bandung&amp;Prov=Jawa_Barat&amp;AreaID=5009715">Regol - Kota Bandung</option>
+</optgroup>
+<optgroup label="Kota Banjar - Jawa Barat">
+<option value="?Kec=Banjar&amp;kab=Kota_Banjar&amp;Prov=Jawa_Barat&amp;AreaID=5009243">Banjar - Kota Banjar</option>
+<option value="?Kec=Pataruman&amp;kab=Kota_Banjar&amp;Prov=Jawa_Barat&amp;AreaID=5009681">Pataruman - Kota Banjar</option>
+<option value="?Kec=Langensari&amp;kab=Kota_Banjar&amp;Prov=Jawa_Barat&amp;AreaID=5009569">Langensari - Kota Banjar</option>
+<option value="?Kec=Banjar&amp;kab=Kota_Banjar&amp;Prov=Jawa_Barat&amp;AreaID=501213">Banjar - Kota Banjar</option>
+<option value="?Kec=Purwaharja&amp;kab=Kota_Banjar&amp;Prov=Jawa_Barat&amp;AreaID=5009698">Purwaharja - Kota Banjar</option>
+</optgroup>
+<optgroup label="Kota Bekasi - Jawa Barat">
+<option value="?Kec=Rawalumbu&amp;kab=Kota_Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009713">Rawalumbu - Kota Bekasi</option>
+<option value="?Kec=Bekasi&amp;kab=Kota_Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5002228">Bekasi - Kota Bekasi</option>
+<option value="?Kec=Bantar_Gebang&amp;kab=Kota_Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009248">Bantar Gebang - Kota Bekasi</option>
+<option value="?Kec=Mustika_Jaya&amp;kab=Kota_Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009619">Mustika Jaya - Kota Bekasi</option>
+<option value="?Kec=Pondok_Gede&amp;kab=Kota_Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009691">Pondok Gede - Kota Bekasi</option>
+<option value="?Kec=Pondok_Melati&amp;kab=Kota_Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009692">Pondok Melati - Kota Bekasi</option>
+<option value="?Kec=Medan_Satria&amp;kab=Kota_Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009614">Medan Satria - Kota Bekasi</option>
+<option value="?Kec=Bekasi_Utara&amp;kab=Kota_Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009265">Bekasi Utara - Kota Bekasi</option>
+<option value="?Kec=Jati_Sampurna&amp;kab=Kota_Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009499">Jati Sampurna - Kota Bekasi</option>
+<option value="?Kec=Jati_Asih&amp;kab=Kota_Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009498">Jati Asih - Kota Bekasi</option>
+<option value="?Kec=Bekasi_Barat&amp;kab=Kota_Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009262">Bekasi Barat - Kota Bekasi</option>
+<option value="?Kec=Bekasi_Selatan&amp;kab=Kota_Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009263">Bekasi Selatan - Kota Bekasi</option>
+<option value="?Kec=Bekasi_Timur&amp;kab=Kota_Bekasi&amp;Prov=Jawa_Barat&amp;AreaID=5009264">Bekasi Timur - Kota Bekasi</option>
+</optgroup>
+<optgroup label="Kota Bogor - Jawa Barat">
+<option value="?Kec=Bogor_Timur&amp;kab=Kota_Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009271">Bogor Timur - Kota Bogor</option>
+<option value="?Kec=Bogor_Selatan&amp;kab=Kota_Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009269">Bogor Selatan - Kota Bogor</option>
+<option value="?Kec=Tanah_Sereal&amp;kab=Kota_Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009806">Tanah Sereal - Kota Bogor</option>
+<option value="?Kec=Bogor_Barat&amp;kab=Kota_Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009268">Bogor Barat - Kota Bogor</option>
+<option value="?Kec=Kota_Bogor&amp;kab=Kota_Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5002227">Kota Bogor - Kota Bogor</option>
+<option value="?Kec=Bogor_Tengah&amp;kab=Kota_Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009270">Bogor Tengah - Kota Bogor</option>
+<option value="?Kec=Bogor_Utara&amp;kab=Kota_Bogor&amp;Prov=Jawa_Barat&amp;AreaID=5009272">Bogor Utara - Kota Bogor</option>
+</optgroup>
+<optgroup label="Kota Cimahi - Jawa Barat">
+<option value="?Kec=Cimahi_Utara&amp;kab=Kota_Cimahi&amp;Prov=Jawa_Barat&amp;AreaID=5009401">Cimahi Utara - Kota Cimahi</option>
+<option value="?Kec=Cimahi_Tengah&amp;kab=Kota_Cimahi&amp;Prov=Jawa_Barat&amp;AreaID=5009400">Cimahi Tengah - Kota Cimahi</option>
+<option value="?Kec=Cimahi_Selatan&amp;kab=Kota_Cimahi&amp;Prov=Jawa_Barat&amp;AreaID=5009399">Cimahi Selatan - Kota Cimahi</option>
+<option value="?Kec=Cimahi&amp;kab=Kota_Cimahi&amp;Prov=Jawa_Barat&amp;AreaID=501220">Cimahi - Kota Cimahi</option>
+</optgroup>
+<optgroup label="Kota Cirebon - Jawa Barat">
+<option value="?Kec=Lemahwungkuk&amp;kab=Kota_Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009579">Lemahwungkuk - Kota Cirebon</option>
+<option value="?Kec=Kosambi&amp;kab=Kota_Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009560">Kosambi - Kota Cirebon</option>
+<option value="?Kec=Kejaksaan&amp;kab=Kota_Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009549">Kejaksaan - Kota Cirebon</option>
+<option value="?Kec=Cirebon&amp;kab=Kota_Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=501221">Cirebon - Kota Cirebon</option>
+<option value="?Kec=Pekalipan&amp;kab=Kota_Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009686">Pekalipan - Kota Cirebon</option>
+<option value="?Kec=Harjamukti&amp;kab=Kota_Cirebon&amp;Prov=Jawa_Barat&amp;AreaID=5009484">Harjamukti - Kota Cirebon</option>
+</optgroup>
+<optgroup label="Kota Depok - Jawa Barat">
+<option value="?Kec=Cinere&amp;kab=Kota_Depok&amp;Prov=Jawa_Barat&amp;AreaID=5009412">Cinere - Kota Depok</option>
+<option value="?Kec=Limo&amp;kab=Kota_Depok&amp;Prov=Jawa_Barat&amp;AreaID=5009591">Limo - Kota Depok</option>
+<option value="?Kec=Cipayung&amp;kab=Kota_Depok&amp;Prov=Jawa_Barat&amp;AreaID=5009421">Cipayung - Kota Depok</option>
+<option value="?Kec=Beji&amp;kab=Kota_Depok&amp;Prov=Jawa_Barat&amp;AreaID=5009261">Beji - Kota Depok</option>
+<option value="?Kec=Sukmajaya&amp;kab=Kota_Depok&amp;Prov=Jawa_Barat&amp;AreaID=5009782">Sukmajaya - Kota Depok</option>
+<option value="?Kec=Cimanggis&amp;kab=Kota_Depok&amp;Prov=Jawa_Barat&amp;AreaID=5009403">Cimanggis - Kota Depok</option>
+<option value="?Kec=Sawangan&amp;kab=Kota_Depok&amp;Prov=Jawa_Barat&amp;AreaID=5009727">Sawangan - Kota Depok</option>
+<option value="?Kec=Depok&amp;kab=Kota_Depok&amp;Prov=Jawa_Barat&amp;AreaID=5002229">Depok - Kota Depok</option>
+<option value="?Kec=Pancoran_mas&amp;kab=Kota_Depok&amp;Prov=Jawa_Barat&amp;AreaID=5009654">Pancoran mas - Kota Depok</option>
+<option value="?Kec=Bojongsari&amp;kab=Kota_Depok&amp;Prov=Jawa_Barat&amp;AreaID=5009282">Bojongsari - Kota Depok</option>
+<option value="?Kec=Cilodong&amp;kab=Kota_Depok&amp;Prov=Jawa_Barat&amp;AreaID=5009397">Cilodong - Kota Depok</option>
+<option value="?Kec=Tapos&amp;kab=Kota_Depok&amp;Prov=Jawa_Barat&amp;AreaID=5009814">Tapos - Kota Depok</option>
+</optgroup>
+<optgroup label="Kota Sukabumi - Jawa Barat">
+<option value="?Kec=Gunungpuyuh&amp;kab=Kota_Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009481">Gunungpuyuh - Kota Sukabumi</option>
+<option value="?Kec=Baros&amp;kab=Kota_Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009255">Baros - Kota Sukabumi</option>
+<option value="?Kec=Cibeureum&amp;kab=Kota_Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009320">Cibeureum - Kota Sukabumi</option>
+<option value="?Kec=Warudoyong&amp;kab=Kota_Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009842">Warudoyong - Kota Sukabumi</option>
+<option value="?Kec=Citamiang&amp;kab=Kota_Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009444">Citamiang - Kota Sukabumi</option>
+<option value="?Kec=Sukabumi&amp;kab=Kota_Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009753">Sukabumi - Kota Sukabumi</option>
+<option value="?Kec=Cikole&amp;kab=Kota_Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009383">Cikole - Kota Sukabumi</option>
+<option value="?Kec=Lembursitu&amp;kab=Kota_Sukabumi&amp;Prov=Jawa_Barat&amp;AreaID=5009581">Lembursitu - Kota Sukabumi</option>
+</optgroup>
+<optgroup label="Kota Tasikmalaya - Jawa Barat">
+<option value="?Kec=Indihiang&amp;kab=Kota_Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009488">Indihiang - Kota Tasikmalaya</option>
+<option value="?Kec=Kawalu&amp;kab=Kota_Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009544">Kawalu - Kota Tasikmalaya</option>
+<option value="?Kec=Tamansari&amp;kab=Kota_Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009800">Tamansari - Kota Tasikmalaya</option>
+<option value="?Kec=Tawang&amp;kab=Kota_Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009819">Tawang - Kota Tasikmalaya</option>
+<option value="?Kec=Cihideung&amp;kab=Kota_Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009355">Cihideung - Kota Tasikmalaya</option>
+<option value="?Kec=Bungursari&amp;kab=Kota_Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009289">Bungursari - Kota Tasikmalaya</option>
+<option value="?Kec=Tasikmalaya&amp;kab=Kota_Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=501236">Tasikmalaya - Kota Tasikmalaya</option>
+<option value="?Kec=Mangkubumi&amp;kab=Kota_Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009607">Mangkubumi - Kota Tasikmalaya</option>
+<option value="?Kec=Cibeureum&amp;kab=Kota_Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009321">Cibeureum - Kota Tasikmalaya</option>
+<option value="?Kec=Cipedes&amp;kab=Kota_Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009422">Cipedes - Kota Tasikmalaya</option>
+<option value="?Kec=Purbaratu&amp;kab=Kota_Tasikmalaya&amp;Prov=Jawa_Barat&amp;AreaID=5009695">Purbaratu - Kota Tasikmalaya</option>
+</optgroup>
+</select>
+</div>
+</div>
+</fieldset>
+</form>
+<h2>Kecamatan Ciomas</h2>
+<h4 class="margin-bottom-30">Kabupaten Bogor - Provinsi Jawa Barat</h4>
+<div class="margin-bottom-30" style="display: flex; justify-content: center;">
+<div class="prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">Cuaca Saat Ini</h2>
+<div class="" style="float: left; display: flex; flex-direction: column; width: 50%; align-items: center;">
+<img alt="" class="loading" src="../asset/img/weather_icon/ID/berawan-pm.png" style="display: block;"/>
+<p>Berawan</p>
+</div>
+<div class="" style="float: right; display: flex; flex-direction: column; width: 50%; align-items: left;">
+<h2 class="heading-md" style="width: fit-content;">23°C</h2>
+<p style="width: fit-content;"><i class="wi wi-raindrop" style="margin-right: 10px;"></i>Kelembapan Udara: 94 %</p>
+<p style="width: fit-content;"><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>Kec. Angin: 5 km/jam</p>
+<p style="width: fit-content;"><i class="wi wi-wind wi-from-s" style="margin-right: 10px;"></i>Arah Angin dari: Selatan</p>
+</div>
+</div>
+</div>
+</div>
+<div class="prakicu-kabkota tab-v1 margin-bottom-30">
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" href="#TabPaneCuaca1">16 Des</a></li>
+<li class=""><a data-toggle="tab" href="#TabPaneCuaca2">17 Des</a></li>
+<li class=""><a data-toggle="tab" href="#TabPaneCuaca3">18 Des</a></li>
+<li class=""><a data-toggle="tab" href="#TabPaneCuaca4">19 Des</a></li>
+<li class=""><a data-toggle="tab" href="#TabPaneCuaca5">20 Des</a></li>
+<li class=""><a data-toggle="tab" href="#TabPaneCuaca6">21 Des</a></li>
+<li class=""><a data-toggle="tab" href="#TabPaneCuaca7">22 Des</a></li>
+<li class=""><a data-toggle="tab" href="#TabPaneCuaca8">23 Des</a></li>
+<li class=""><a data-toggle="tab" href="#TabPaneCuaca9">24 Des</a></li>
+</ul>
+<div class="margin-top-13">
+<div class="tab-content no-padding">
+<div class="tab-pane fade in active" id="TabPaneCuaca1">
+<div class="cuaca-flex row no-space-carousel-block">
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">00:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">22°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>94 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>3 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">01:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">21°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>95 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>3 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">02:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">21°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>94 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>3 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">03:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">22°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>92 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>4 km/jam<br/>Tenggara <i class="wi wi-wind wi-from-se"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">04:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">21°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>93 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>4 km/jam<br/>Tenggara <i class="wi wi-wind wi-from-se"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">05:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">21°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>94 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>4 km/jam<br/>Tenggara <i class="wi wi-wind wi-from-se"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">06:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-am.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">22°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>93 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>0 km/jam<br/>CALM <i class="wi wi-wind wi-from-calm"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">07:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-am.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">23°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>91 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>0 km/jam<br/>CALM <i class="wi wi-wind wi-from-calm"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">08:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-am.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">25°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>86 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>0 km/jam<br/>CALM <i class="wi wi-wind wi-from-calm"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">09:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-am.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">26°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>81 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>0 km/jam<br/>CALM <i class="wi wi-wind wi-from-calm"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">10:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-am.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">28°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>73 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>0 km/jam<br/>CALM <i class="wi wi-wind wi-from-calm"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">11:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-am.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">26°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>81 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>11 km/jam<br/>Barat Laut <i class="wi wi-wind wi-from-nw"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">12:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/hujan ringan-am.png"/>
+<p>Hujan Ringan</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">26°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>81 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>11 km/jam<br/>Barat Laut <i class="wi wi-wind wi-from-nw"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">13:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/hujan ringan-am.png"/>
+<p>Hujan Ringan</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">26°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>83 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>11 km/jam<br/>Barat Laut <i class="wi wi-wind wi-from-nw"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">14:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/hujan ringan-am.png"/>
+<p>Hujan Ringan</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">25°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>88 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>11 km/jam<br/>Barat Laut <i class="wi wi-wind wi-from-nw"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">15:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/hujan sedang-am.png"/>
+<p>Hujan Sedang</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">24°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>94 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>11 km/jam<br/>Barat Laut <i class="wi wi-wind wi-from-nw"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">16:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/hujan sedang-am.png"/>
+<p>Hujan Sedang</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">24°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>94 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>11 km/jam<br/>Barat Laut <i class="wi wi-wind wi-from-nw"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">17:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/hujan ringan-am.png"/>
+<p>Hujan Ringan</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">24°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>96 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>1 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">18:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/hujan ringan-pm.png"/>
+<p>Hujan Ringan</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">24°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>96 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>1 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">19:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">23°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>95 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>1 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">20:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">23°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>94 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>1 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">21:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">23°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>95 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>1 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">22:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">23°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>94 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>1 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">23:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">23°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>94 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>6 km/jam<br/>Tenggara <i class="wi wi-wind wi-from-se"></i></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-pane fade in" id="TabPaneCuaca2">
+<div class="cuaca-flex row no-space-carousel-block">
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">00:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">22°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>94 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>6 km/jam<br/>Tenggara <i class="wi wi-wind wi-from-se"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">01:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">22°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>96 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>6 km/jam<br/>Tenggara <i class="wi wi-wind wi-from-se"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">02:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">22°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>96 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>6 km/jam<br/>Tenggara <i class="wi wi-wind wi-from-se"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">03:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">22°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>94 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>6 km/jam<br/>Tenggara <i class="wi wi-wind wi-from-se"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">04:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">22°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>94 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>6 km/jam<br/>Tenggara <i class="wi wi-wind wi-from-se"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">05:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/kabut-pm.png"/>
+<p>Kabut</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">22°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>94 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>4 km/jam<br/>Tenggara <i class="wi wi-wind wi-from-se"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">06:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-am.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">23°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>92 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>4 km/jam<br/>Tenggara <i class="wi wi-wind wi-from-se"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">07:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-am.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">23°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>92 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>4 km/jam<br/>Tenggara <i class="wi wi-wind wi-from-se"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">10:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-am.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">27°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>75 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>4 km/jam<br/>Tenggara <i class="wi wi-wind wi-from-se"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">13:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/hujan ringan-am.png"/>
+<p>Hujan Ringan</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">26°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>80 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>5 km/jam<br/>Barat Laut <i class="wi wi-wind wi-from-nw"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">16:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/kabut-am.png"/>
+<p>Kabut</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">25°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>85 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>5 km/jam<br/>Barat Laut <i class="wi wi-wind wi-from-nw"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">19:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">24°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>94 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>3 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">22:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/kabut-pm.png"/>
+<p>Kabut</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">23°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>94 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>3 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-pane fade in" id="TabPaneCuaca3">
+<div class="cuaca-flex row no-space-carousel-block">
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">01:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">22°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>94 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>2 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">04:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">21°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>96 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>2 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">07:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-am.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">24°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>91 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>6 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">10:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/kabut-am.png"/>
+<p>Kabut</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">26°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>82 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>6 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">13:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/hujan ringan-am.png"/>
+<p>Hujan Ringan</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">25°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>88 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>6 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">16:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/hujan ringan-am.png"/>
+<p>Hujan Ringan</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">25°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>91 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>7 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">19:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">24°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>90 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>7 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">22:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/kabut-pm.png"/>
+<p>Kabut</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">23°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>92 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>7 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-pane fade in" id="TabPaneCuaca4">
+<div class="cuaca-flex row no-space-carousel-block">
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">01:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/udara kabur-pm.png"/>
+<p>Udara Kabur</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">22°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>93 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>7 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">04:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">22°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>92 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>6 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">07:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-am.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">24°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>88 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>6 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">10:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/hujan lebat-am.png"/>
+<p>Hujan Lebat</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">24°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>88 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>6 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">13:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/hujan lebat-am.png"/>
+<p>Hujan Lebat</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">27°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>79 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>6 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">16:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-am.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">27°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>79 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>5 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">19:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">24°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>90 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>5 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">22:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">24°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>90 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>5 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-pane fade in" id="TabPaneCuaca5">
+<div class="cuaca-flex row no-space-carousel-block">
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">01:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">22°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>91 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>5 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">04:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">22°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>91 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>3 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">07:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-am.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">24°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>84 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>3 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">10:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-am.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">24°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>84 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>3 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">13:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/kabut-am.png"/>
+<p>Kabut</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">28°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>72 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>3 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">16:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-am.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">28°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>72 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>4 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">19:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">25°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>84 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>4 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">22:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">25°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>84 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>4 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-pane fade in" id="TabPaneCuaca6">
+<div class="cuaca-flex row no-space-carousel-block">
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">01:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">23°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>87 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>4 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">04:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/kabut-pm.png"/>
+<p>Kabut</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">23°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>87 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>2 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">07:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/cerah berawan-am.png"/>
+<p>Cerah Berawan</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">25°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>81 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>2 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">13:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/kabut-am.png"/>
+<p>Kabut</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">26°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>80 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>2 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">19:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">24°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>88 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>2 km/jam<br/>Barat Daya <i class="wi wi-wind wi-from-sw"></i></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-pane fade in" id="TabPaneCuaca7">
+<div class="cuaca-flex row no-space-carousel-block">
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">01:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/udara kabur-pm.png"/>
+<p>Udara Kabur</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">23°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>90 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>2 km/jam<br/>Barat Daya <i class="wi wi-wind wi-from-sw"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">07:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan-am.png"/>
+<p>Berawan</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">25°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>82 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>1 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">13:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/kabut-am.png"/>
+<p>Kabut</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">27°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>75 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>1 km/jam<br/>Selatan <i class="wi wi-wind wi-from-s"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">19:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">24°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>87 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>1 km/jam<br/>Barat <i class="wi wi-wind wi-from-w"></i></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-pane fade in" id="TabPaneCuaca8">
+<div class="cuaca-flex row no-space-carousel-block">
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">01:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/kabut-pm.png"/>
+<p>Kabut</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">22°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>95 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>1 km/jam<br/>Barat <i class="wi wi-wind wi-from-w"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">07:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-am.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">24°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>92 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>6 km/jam<br/>Tenggara <i class="wi wi-wind wi-from-se"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">13:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/udara kabur-am.png"/>
+<p>Udara Kabur</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">28°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>60 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>6 km/jam<br/>Tenggara <i class="wi wi-wind wi-from-se"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">19:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">24°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>85 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>7 km/jam<br/>Barat Daya <i class="wi wi-wind wi-from-sw"></i></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-pane fade in" id="TabPaneCuaca9">
+<div class="cuaca-flex row no-space-carousel-block">
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-malam">
+<div class="service-block clearfix">
+<h2 class="kota">01:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-pm.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">22°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>87 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>7 km/jam<br/>Barat Daya <i class="wi wi-wind wi-from-sw"></i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cuaca-flex-child">
+<div class="carousel-block-table prakicu-kota bg-cuaca cerah-berawan-siang">
+<div class="service-block clearfix">
+<h2 class="kota">07:00 WIB</h2>
+<div class="kiri">
+<img alt="" src="../asset/img/weather_icon/ID/berawan tebal-am.png"/>
+<p>Berawan Tebal</p>
+</div>
+<div class="kanan">
+<h2 class="heading-md">23°C</h2>
+<p><i class="wi wi-raindrop" style="margin-right: 10px;"></i>83 %</p>
+<p><i class="wi wi-strong-wind" style="margin-right: 10px;"></i>5 km/jam<br/>Barat <i class="wi wi-wind wi-from-w"></i></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<button class="btn-u margin-bottom-20" data-target="#SimbolCuaca" data-toggle="modal">Keterangan Simbol Cuaca</button>
+<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="SimbolCuaca" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button aria-hidden="true" class="close" data-dismiss="modal" type="button">×</button>
+<h4 class="modal-title" id="myModalLabel1">Keterangan Simbol</h4>
+</div>
+<div class="modal-body">
+<div class="headline"><h4>Keterangan Simbol Cuaca</h4></div>
+<div class="row margin-bottom-20">
+<div class="col-sm-12">
+<ul class="list-unstyled prakicu-kota">
+<li class="margin-bottom-10">Suhu Udara dengan satuan °C</li>
+<li class="margin-bottom-10"><i class="wi wi-raindrop"></i> Kelembapan Udara dengan satuan %</li>
+<li class="margin-bottom-10"><i class="wi wi-strong-wind"></i> Kecepatan Angin dengan satuan km/jam</li>
+<li class="margin-bottom-10"><i class="wi wi-wind wi-from-se"></i> Arah Angin (dibaca: dari)</li>
+</ul>
+</div>
+</div>
+<div class="headline"><h4>Keterangan Simbol Arah Angin (dari)</h4></div>
+<div class="row md-margin-bottom-10">
+<div class="col-sm-6">
+<ul class="list-unstyled prakicu-kota">
+<!--<li class="margin-bottom-10"><i class="wi wi-refresh"></i> VARIABLE (berubah-ubah)</li>-->
+<li class="margin-bottom-10"><i class="wi wi-wind wi-from-n"></i> N (Utara)</li>
+<!--<li class="margin-bottom-10"><i class="wi wi-wind wi-from-nne"></i> NNE (North-Northeast)</li>-->
+<li class="margin-bottom-10"><i class="wi wi-wind wi-from-ne"></i> NE (Timur Laut)</li>
+<!--<li class="margin-bottom-10"><i class="wi wi-wind wi-from-ene"></i> ENE (East-Northeast)</li>-->
+<li class="margin-bottom-10"><i class="wi wi-wind wi-from-e"></i> E (Timur)</li>
+<!--<li class="margin-bottom-10"><i class="wi wi-wind wi-from-ese"></i> ESE (East-Southeast)</li>-->
+<li class="margin-bottom-10"><i class="wi wi-wind wi-from-se"></i> SE (Tenggara)</li>
+<!--<li class="margin-bottom-10"><i class="wi wi-wind wi-from-sse"></i> SSE (South-Southeast)</li>-->
+</ul>
+</div>
+<div class="col-sm-6">
+<ul class="list-unstyled prakicu-kota">
+<li class="margin-bottom-10"><i class="wi wi-wind wi-from-s"></i> S (Selatan)</li>
+<!--<li class="margin-bottom-10"><i class="wi wi-wind wi-from-ssw"></i> SSW (South-Southwest)</li>-->
+<li class="margin-bottom-10"><i class="wi wi-wind wi-from-sw"></i> SW (Barat Daya)</li>
+<!--<li class="margin-bottom-10"><i class="wi wi-wind wi-from-wsw"></i> WSW (West-Southwest)</li>-->
+<li class="margin-bottom-10"><i class="wi wi-wind wi-from-w"></i> W (Barat)</li>
+<!--<li class="margin-bottom-10"><i class="wi wi-wind wi-from-wnw"></i> WNW (West-Northwest)</li>-->
+<li class="margin-bottom-10"><i class="wi wi-wind wi-from-nw"></i> NW (Barat Laut)</li>
+<!--<li class="margin-bottom-10"><i class="wi wi-wind wi-from-nnw"></i> NNW (North-Northwest)</li>-->
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="headline"><h4>Provinsi Lainnya</h4></div>
+<div class="list-cuaca-provinsi md-margin-bottom-10">
+<div class="row list-cuaca-provinsi md-margin-bottom-10">
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-01"></span><a href="prakiraan-cuaca.bmkg?kab=Banda_Aceh&amp;Prov=Aceh&amp;AreaID=501397">Aceh</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-02"></span><a href="prakiraan-cuaca.bmkg?kab=Denpasar&amp;Prov=Bali&amp;AreaID=501164">Bali</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-03"></span><a href="prakiraan-cuaca.bmkg?kab=Pangkal_Pinang&amp;Prov=Kep_Bangka_Belitung&amp;AreaID=501365">Kep. Bangka Belitung</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-04"></span><a href="prakiraan-cuaca.bmkg?kab=Serang&amp;Prov=Banten&amp;AreaID=5008773">Banten</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-05"></span><a href="prakiraan-cuaca.bmkg?kab=Bengkulu&amp;Prov=Bengkulu&amp;AreaID=501178">Bengkulu</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-06"></span><a href="prakiraan-cuaca.bmkg?kab=Yogyakarta&amp;Prov=DI_Yogyakarta&amp;AreaID=501190">D.I. Yogyakarta</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-07"></span><a href="prakiraan-cuaca.bmkg?kab=Jakarta&amp;Prov=DKI_Jakarta&amp;AreaID=501195">DKI Jakarta</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-08"></span><a href="prakiraan-cuaca.bmkg?kab=Gorontalo&amp;Prov=Gorontalo&amp;AreaID=501197">Gorontalo</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-09"></span><a href="prakiraan-cuaca.bmkg?kab=Jambi&amp;Prov=Jambi&amp;AreaID=501205">Jambi</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-10"></span><a href="prakiraan-cuaca.bmkg?kab=Bandung&amp;Prov=Jawa_Barat&amp;AreaID=501212">Jawa Barat</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-11"></span><a href="prakiraan-cuaca.bmkg?kab=Semarang&amp;Prov=Jawa_Tengah&amp;AreaID=501262">Jawa Tengah</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-12"></span><a href="prakiraan-cuaca.bmkg?kab=Surabaya&amp;Prov=Jawa_Timur&amp;AreaID=501306">Jawa Timur</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-13"></span><a href="prakiraan-cuaca.bmkg?kab=Pontianak&amp;Prov=Kalimantan_Barat&amp;AreaID=501315">Kalimantan Barat</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-14"></span><a href="prakiraan-cuaca.bmkg?kab=Banjarmasin&amp;Prov=Kalimantan_Selatan&amp;AreaID=501325">Kalimantan Selatan</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-15"></span><a href="prakiraan-cuaca.bmkg?kab=Palangkaraya&amp;Prov=Kalimantan_Tengah&amp;AreaID=501342">Kalimantan Tengah</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-16"></span><a href="prakiraan-cuaca.bmkg?kab=Samarinda&amp;Prov=Kalimantan_Timur&amp;AreaID=501354">Kalimantan Timur</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-17"></span><a href="prakiraan-cuaca.bmkg?kab=Tanjung_Selor&amp;Prov=Kalimantan_Utara&amp;AreaID=501359">Kalimantan Utara</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-18"></span><a href="prakiraan-cuaca.bmkg?kab=Tanjung_Pinang&amp;Prov=Kepulauan_Riau&amp;AreaID=501371">Kepulauan Riau</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-19"></span><a href="prakiraan-cuaca.bmkg?kab=Lampung&amp;Prov=Lampung&amp;AreaID=501373">Lampung</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-20"></span><a href="prakiraan-cuaca.bmkg?kab=Ambon&amp;Prov=Maluku&amp;AreaID=501382">Maluku</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-21"></span><a href="prakiraan-cuaca.bmkg?kab=Sofifi&amp;Prov=Maluku_Utara&amp;AreaID=5002253">Maluku Utara</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-22"></span><a href="prakiraan-cuaca.bmkg?kab=Mataram&amp;Prov=Nusa_Tenggara_Barat&amp;AreaID=501421">Nusa Tenggara Barat</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-23"></span><a href="prakiraan-cuaca.bmkg?kab=Kupang&amp;Prov=Nusa_Tenggara_Timur&amp;AreaID=501434">Nusa Tenggara Timur</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-24"></span><a href="prakiraan-cuaca.bmkg?kab=Jayapura&amp;Prov=Papua&amp;AreaID=501447">Papua</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-25"></span><a href="prakiraan-cuaca.bmkg?kab=Manokwari&amp;Prov=Papua_Barat&amp;AreaID=501467">Papua Barat</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-26"></span><a href="prakiraan-cuaca.bmkg?kab=Pekanbaru&amp;Prov=Riau&amp;AreaID=501478">Riau</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-27"></span><a href="prakiraan-cuaca.bmkg?kab=Mamuju&amp;Prov=Sulawesi_Barat&amp;AreaID=501485">Sulawesi Barat</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-28"></span><a href="prakiraan-cuaca.bmkg?kab=Makassar&amp;Prov=Sulawesi_Selatan&amp;AreaID=501495">Sulawesi Selatan</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-29"></span><a href="prakiraan-cuaca.bmkg?kab=Palu&amp;Prov=Sulawesi_Tengah&amp;AreaID=1200106">Sulawesi Tengah</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-30"></span><a href="prakiraan-cuaca.bmkg?kab=Kendari&amp;Prov=Sulawesi_Tenggara&amp;AreaID=5013053">Sulawesi Tenggara</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-31"></span><a href="prakiraan-cuaca.bmkg?kab=Manado&amp;Prov=Sulawesi_Utara&amp;AreaID=501534">Sulawesi Utara</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-32"></span><a href="prakiraan-cuaca.bmkg?kab=Padang&amp;Prov=Sumatera_Barat&amp;AreaID=501545">Sumatera Barat</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-33"></span><a href="prakiraan-cuaca.bmkg?kab=Palembang&amp;Prov=Sumatera_Selatan&amp;AreaID=501568">Sumatera Selatan</a></div>
+<div class="col-sm-4 col-xs-6"><span class="icon-prov prov-34"></span><a href="prakiraan-cuaca.bmkg?kab=Medan&amp;Prov=Sumatera_Utara&amp;AreaID=501580">Sumatera Utara</a></div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="headline"><h4>Informasi Meteorologi</h4></div>
+<div class="press-release-home-bg">
+<div class="blog-thumb margin-bottom-20">
+<div class="blog-thumb-mkg wbg">
+<img alt="" data-original="https://cdn.bmkg.go.id/Web/"/>
+</div>
+<div class="blog-thumb-desc">
+<h3><a href="../berita/?p=perbarui-aerodrome-visibility-chart-di-bandara-kalimarau-tingkatkan-keselamatan-penerbangan&amp;lang=ID&amp;s=detil">Perbarui Aerodrome Visibility Chart di Bandara Kalimarau, Tingkatkan Keselamatan Penerbangan</a></h3>
+<ul class="blog-thumb-info">
+<li>05 Des 2024</li>
+</ul>
+</div>
+<ul class="list-unstyled list-inline blog-tags">
+<li>
+<i class="fa fa-tags"></i>
+<a href="../tag/?tag=berita-daerah&amp;lang=ID">#Berita Daerah</a>
+<a href="../tag/?tag=meteorologi-penerbangan&amp;lang=ID">#Meteorologi Penerbangan</a>
+<a href="../tag/?tag=aerodrome&amp;lang=ID">#Aerodrome</a>
+<a href="../tag/?tag=bandara&amp;lang=ID">#Bandara</a>
+</li>
+</ul>
+</div>
+<div class="blog-thumb margin-bottom-20">
+<div class="blog-thumb-mkg wbg">
+<img alt="" data-original="https://cdn.bmkg.go.id/Web/WhatsApp-Image-2024-12-03-at-09.33.49-250x150.jpeg"/>
+</div>
+<div class="blog-thumb-desc">
+<h3><a href="../berita/?p=untuk-memastikan-implementasi-sistem-berjalan-baik-bmkg-gelar-steering-committee-mms-1&amp;lang=ID&amp;s=detil">Untuk Memastikan Implementasi Sistem Berjalan Baik, BMKG Gelar Steering Committee MMS-1</a></h3>
+<ul class="blog-thumb-info">
+<li>02 Des 2024</li>
+</ul>
+</div>
+<ul class="list-unstyled list-inline blog-tags">
+<li>
+<i class="fa fa-tags"></i>
+<a href="../tag/?tag=berita-utama&amp;lang=ID">#Berita Utama</a>
+<a href="../tag/?tag=meteorologi&amp;lang=ID">#Meteorologi</a>
+<a href="../tag/?tag=mms1&amp;lang=ID">#MMS1</a>
+</li>
+</ul>
+</div>
+<div class="blog-thumb margin-bottom-20">
+<div class="blog-thumb-mkg wbg">
+<img alt="" data-original="https://cdn.bmkg.go.id/Web/DSC09937-250x150.jpg"/>
+</div>
+<div class="blog-thumb-desc">
+<h3><a href="../berita/?p=asosiasi-guru-singapura-belajar-sistem-monitoring-bencana-di-bmkg&amp;lang=ID&amp;s=detil">Asosiasi Guru Singapura Belajar Sistem Monitoring Bencana di BMKG</a></h3>
+<ul class="blog-thumb-info">
+<li>12 Sep 2023</li>
+</ul>
+</div>
+<ul class="list-unstyled list-inline blog-tags">
+<li>
+<i class="fa fa-tags"></i>
+<a href="../tag/?tag=kunjungan&amp;lang=ID">#Kunjungan</a>
+<a href="../tag/?tag=berita-foto&amp;lang=ID">#Berita Foto</a>
+<a href="../tag/?tag=inatews&amp;lang=ID">#InaTEWS</a>
+<a href="../tag/?tag=singapura&amp;lang=ID">#Singapura</a>
+<a href="../tag/?tag=cews&amp;lang=ID">#CEWS</a>
+<a href="../tag/?tag=asosiasi-guru-singapura&amp;lang=ID">#Asosiasi Guru Singapura</a>
+<a href="../tag/?tag=mews&amp;lang=ID">#MEWS</a>
+<a href="../tag/?tag=international-activities&amp;lang=ID">#International Activities</a>
+</li>
+</ul>
+</div>
+<div class="blog-thumb margin-bottom-20">
+<div class="blog-thumb-mkg wbg">
+<img alt="" data-original="https://cdn.bmkg.go.id/Web/unnamed-file-250x150.jpeg"/>
+</div>
+<div class="blog-thumb-desc">
+<h3><a href="../berita/?p=potensi-cuaca-sepekan-kedepan-di-indonesia-pada-umumnya-dan-sulawesi-selatan-pada-khususnya-update-19-januari-2023&amp;lang=ID&amp;s=detil">Potensi Cuaca Sepekan Kedepan di Indonesia Pada Umumnya dan Sulawesi Selatan Pada Khususnya (Update 19 Januari 2023)</a></h3>
+<ul class="blog-thumb-info">
+<li>19 Jan 2023</li>
+</ul>
+</div>
+<ul class="list-unstyled list-inline blog-tags">
+<li>
+<i class="fa fa-tags"></i>
+<a href="../tag/?tag=press-release&amp;lang=ID">#Siaran Pers</a>
+<a href="../tag/?tag=meteorologi&amp;lang=ID">#Meteorologi</a>
+<a href="../tag/?tag=penerbangan&amp;lang=ID">#Penerbangan</a>
+<a href="../tag/?tag=maritim&amp;lang=ID">#Maritim</a>
+<a href="../tag/?tag=hujan&amp;lang=ID">#Hujan</a>
+<a href="../tag/?tag=sulawesi-selatan&amp;lang=ID">#Sulawesi Selatan</a>
+<a href="../tag/?tag=gelombang-tinggi&amp;lang=ID">#Gelombang Tinggi</a>
+<a href="../tag/?tag=cuaca&amp;lang=ID">#Cuaca</a>
+<a href="../tag/?tag=imlek&amp;lang=ID">#imlek</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section id="klimatologi">
+<div class="container">
+<div class="row margin-bottom-30 md-margin-bottom-10">
+<div class="col-md-3 col-sm-6 md-margin-bottom-20">
+<div class="headline"><h4>Citra Satelit</h4></div>
+<div class="img-mkg-home-bg">
+<a class="fancybox img-hover-v1" href="https://inderaja.bmkg.go.id/IMAGE/HIMA/H08_EH_Indonesia.png?id=95951zx0pj80xfg3lxmz0l2" rel="gallery" title="Citra Satelit">
+<img alt="Citra Satelit" class="img-responsive" data-original="https://inderaja.bmkg.go.id/IMAGE/HIMA/H08_EH_Indonesia.png?id=95951zx0pj80xfg3lxmz0l2"/>
+</a>
+</div>
+</div>
+<div class="col-md-3 col-sm-6 md-margin-bottom-20">
+<div class="headline"><h4>Prakiraan Tinggi Gelombang</h4></div>
+<div class="img-mkg-home-bg">
+<a class="fancybox img-hover-v1" href="https://cdn.bmkg.go.id/DataMKG/MEWS/maritim/gelombang_maritim.png?id=95951zx0pj80xfg3lxmz0l2" rel="gallery" title="Prakiraan Tinggi Gelombang">
+<img alt="Prakiraan Tinggi Gelombang" class="img-responsive" data-original="https://cdn.bmkg.go.id/DataMKG/MEWS/maritim/gelombang_maritim.png?id=95951zx0pj80xfg3lxmz0l2"/>
+</a>
+</div>
+</div>
+<div class="clearfix visible-sm"></div>
+<div class="col-md-3 col-sm-6 md-margin-bottom-20">
+<div class="headline"><h4>Prakiraan Angin</h4></div>
+<div class="img-mkg-home-bg">
+<a class="fancybox img-hover-v1" href="https://cdn.bmkg.go.id/DataMKG/MEWS/angin/streamline_d1.jpg?id=95951zx0pj80xfg3lxmz0l2" rel="gallery" title="Prakiraan Angin">
+<img alt="Prakiraan Angin" class="img-responsive" data-original="https://cdn.bmkg.go.id/DataMKG/MEWS/angin/streamline_d1.jpg?id=95951zx0pj80xfg3lxmz0l2"/>
+</a>
+</div>
+</div>
+<div class="col-md-3 col-sm-6 md-margin-bottom-20">
+<div class="headline"><h4>Potensi Kebakaran Hutan</h4></div>
+<div class="img-mkg-home-bg">
+<a class="fancybox img-hover-v1" href="https://cdn.bmkg.go.id/DataMKG/MEWS/fdrs/ina_ffmc00.jpg?id=95951zx0pj80xfg3lxmz0l2" rel="gallery" title="Potensi Kebakaran Hutan">
+<img alt="Potensi Kebakaran Hutan" class="img-responsive" data-original="https://cdn.bmkg.go.id/DataMKG/MEWS/fdrs/ina_ffmc00.jpg?id=95951zx0pj80xfg3lxmz0l2"/>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section><div class="footer-v8">
+<footer class="footer">
+<div class="container">
+<div class="row">
+<div class="col-md-3 col-sm-6 column-one md-margin-bottom-30">
+<div class="logo-circle margin-bottom-20">
+<a href="../"><img alt="" class="footer-logo" src="../asset/img/logo/logo-bmkg.svg"/></a>
+</div>
+<span>Kantor Pusat</span>
+<p>Jl. Angkasa I No.2 Kemayoran<br/>Jakarta Pusat, DKI Jakarta 10610<br/>PO Box 3540 Jkt.</p>
+<hr/>
+<span>Tel. &amp; Fax</span>
+<p>Call Center (021) 196<br/>Fax (021) 4246703</p>
+<hr/>
+<span>Email:</span>
+<a href="mailto:cc196@bmkg.go.id">cc196@bmkg.go.id</a>
+</div>
+<div class="col-md-3 col-sm-6 md-margin-bottom-30">
+<h2>Link BMKG</h2>
+<ul class="footer-lists">
+<li><i class="fa fa-angle-right"></i><a href="https://web.meteo.bmkg.go.id" target="_blank">Informasi Cuaca</a></li>
+<li><i class="fa fa-angle-right"></i><a href="https://maritim.bmkg.go.id" target="_blank">Cuaca Maritim</a></li>
+<li><i class="fa fa-angle-right"></i><a href="https://aviation.bmkg.go.id" target="_blank">Cuaca Penerbangan</a></li>
+<li><i class="fa fa-angle-right"></i><a href="https://cews.bmkg.go.id" target="_blank">CEWS (Climate Early Warning System)</a></li>
+<li><i class="fa fa-angle-right"></i><a href="https://inatews.bmkg.go.id" target="_blank">InaTEWS (Indonesia Tsunami Early Warning System)</a></li>
+<li><i class="fa fa-angle-right"></i><a href="https://dataonline.bmkg.go.id" target="_blank">Data Online BMKG</a></li>
+<li class="ften"><i class="fa fa-angle-right"></i><a href="https://mail.google.com/a/bmkg.go.id" target="_blank">Email BMKG</a></li>
+<li class="ften"><i class="fa fa-angle-right"></i><a href="http://jdih.bmkg.go.id" target="_blank">JDIH BMKG</a></li>
+<li class="ften"><i class="fa fa-angle-right"></i><a href="http://inspektorat.bmkg.go.id" target="_blank">Inspektorat BMKG</a></li>
+<!--<li class="ften"><i class="fa fa-angle-right"></i><a href="http://sdm.sestama.bmkg.go.id" target="_blank">SDM BMKG</a></li>-->
+<li class="ften"><i class="fa fa-angle-right"></i><a href="http://pusdiklat.bmkg.go.id" target="_blank">Pusdiklat BMKG</a></li>
+<!--<li class="ften"><i class="fa fa-angle-right"></i><a href="http://puslitbang.bmkg.go.id" target="_blank">Puslitbang BMKG</a></li>-->
+<li class="ften"><i class="fa fa-angle-right"></i><a href="https://stmkg.ac.id" target="_blank">STMKG</a></li>
+<li class="ften"><i class="fa fa-angle-right"></i><a href="http://perpustakaan.bmkg.go.id" target="_blank">E-Perpustakaan BMKG</a></li>
+</ul>
+</div>
+<div class="clearfix visible-sm"></div>
+<div class="col-md-3 col-sm-6 md-margin-bottom-30">
+<h2>Aplikasi Mobile</h2>
+<h4><a href="http://apps.bmkg.go.id" target="_blank">Info BMKG - Cuaca, Iklim, dan Gempabumi Indonesia</a></h4>
+<p>Semua informasi mengenai Prakiraan Cuaca, Iklim, Kualitas Udara, dan Gempabumi yang terjadi di berbagai wilayah di Indonesia tercakup dalam satu aplikasi mobile.</p>
+<div class="row">
+<div class="col-xs-6">
+<a href="https://itunes.apple.com/id/app/id1114372539?l=id" target="_blank"><img alt="infoBMKG on App Store" class="img-responsive" src="../asset/img/logo/appstore.png"/></a>
+</div>
+<div class="col-xs-6">
+<a href="https://play.google.com/store/apps/details?id=com.Info_BMKG" target="_blank"><img alt="infoBMKG on Google Play" class="img-responsive" src="../asset/img/logo/googleplay.png"/></a>
+</div>
+</div>
+<hr>
+<ul class="social-icon-list">
+<li><a href="https://twitter.com/infoBMKG" target="_blank"><i class="rounded-x fa fa-twitter"></i></a></li>
+<li><a href="https://www.facebook.com/infoBMKG" target="_blank"><i class="rounded-x fa fa-facebook"></i></a></li>
+<li><a href="https://www.instagram.com/infoBMKG" target="_blank"><i class="rounded-x fa fa-instagram"></i></a></li>
+<li><a href="https://www.youtube.com/infoBMKG" target="_blank"><i class="rounded-x fa fa-youtube"></i></a></li>
+</ul>
+<hr>
+<div class="row">
+<div class="col-xs-12">
+<a href="https://www.bmkg.go.id/profil/?p=sertifikat-iso-pusat-jaringan-komunikasi" target="_blank"><img alt="ISO" class="img-responsive" src="../asset/img/banner/banner-ISO-sertifikat-min.png" style="width: 150px"/></a>
+<!--a href="https://www.bsigroup.com/en-GB/validate-bsi-issued-certificates/client-directory-profile/PUSAT_-0047783591-000" target="_blank"><img class="img-responsive" src="../asset/img/banner/banner-ISO-sertifikat-min.png" alt="ISO"></a-->
+</div>
+</div>
+</hr></hr></div>
+<div class="col-md-3 col-sm-6 md-margin-bottom-30">
+<!-- include file="includes/widget_media_streaming.bmkg" -->
+<h2>Media BMKG</h2>
+<a class="embedmedia" href="https://www.bmkg.go.id/video/?p=profil-badan-meteorologi-klimatologi-dan-geofisika&amp;lang=ID" target="_blank">
+<img alt="Media BMKG" class="img-responsive loaded" data-original="https://cdn.bmkg.go.id/Web/video-profil-bmkg.jpg" src="https://cdn.bmkg.go.id/Web/video-profil-bmkg.jpg">
+<span class="playmedia"></span>
+</img></a>
+<h4><a href="https://www.bmkg.go.id/video/?p=profil-badan-meteorologi-klimatologi-dan-geofisika&amp;lang=ID" target="_blank">Video Profil BMKG.</a></h4>
+</div>
+</div>
+</div>
+</footer>
+<footer class="copyright">
+<div class="container">
+<ul class="list-inline terms-menu">
+<li>© 2024 - Badan Meteorologi, Klimatologi, dan Geofisika</li>
+<li class="home"><a href="../profil/?p=kontak-kami">Kontak Kami</a></li>
+<!--<li><a href="#">Peta Situs</a></li>-->
+<li class="sv"><a href="#"><span>sv-247</span></a></li>
+</ul>
+</div>
+</footer>
+</div>
+</div>
+<script src="../asset/js/hayoo.js" type="text/javascript"></script>
+<script src="../asset/plugins/jquery/jquery.min.js" type="text/javascript"></script>
+<script defer="" src="../asset/plugins/master-slider/masterslider/masterslider.min.js" type="text/javascript"></script>
+<script defer="" src="../asset/plugins/fancybox/source/jquery.fancybox.pack.js" type="text/javascript"></script>
+<script defer="" src="../asset/plugins/cumulonimbus.js" type="text/javascript"></script>
+<script>
+	/*elnino*/var App=function(){function a(){jQuery(window).scroll(function(){jQuery(window).scrollTop()>100?jQuery(".header-fixed .header-sticky").addClass("header-fixed-shrink"):jQuery(".header-fixed .header-sticky").removeClass("header-fixed-shrink")})}function b(){$(".blog-topbar .search-btn").on("click",function(){jQuery(".topbar-search-block").hasClass("topbar-search-visible")?(jQuery(".topbar-search-block").slideUp(),jQuery(".topbar-search-block").removeClass("topbar-search-visible")):(jQuery(".topbar-search-block").slideDown(),jQuery(".topbar-search-block").addClass("topbar-search-visible"))}),$(".blog-topbar .search-close").on("click",function(){jQuery(".topbar-search-block").slideUp(),jQuery(".topbar-search-block").removeClass("topbar-search-visible")}),jQuery(window).scroll(function(){jQuery(".topbar-search-block").slideUp(),jQuery(".topbar-search-block").removeClass("topbar-search-visible")})}function c(){$(".topbar-toggler").on("click",function(){jQuery(".topbar-toggler").hasClass("topbar-list-visible")?(jQuery(".topbar-menu").slideUp(),jQuery(this).removeClass("topbar-list-visible")):(jQuery(".topbar-menu").slideDown(),jQuery(this).addClass("topbar-list-visible"))})}function d(){$(".topbar-list > li").on("click",function(a){jQuery(this).children("ul").hasClass("topbar-dropdown")&&(jQuery(this).children("ul").hasClass("topbar-dropdown-visible")?(jQuery(this).children(".topbar-dropdown").slideUp(),jQuery(this).children(".topbar-dropdown").removeClass("topbar-dropdown-visible")):(jQuery(this).children(".topbar-dropdown").slideDown(),jQuery(this).children(".topbar-dropdown").addClass("topbar-dropdown-visible")))})}function e(){$(".hoverSelector").on("hover",function(a){$(".hoverSelectorBlock",this).toggleClass("show"),a.stopPropagation()})}function f(){jQuery(".carousel").carousel({interval:15e3,pause:"hover"}),jQuery(".tooltips").tooltip(),jQuery(".tooltips-show").tooltip("show"),jQuery(".tooltips-hide").tooltip("hide"),jQuery(".tooltips-toggle").tooltip("toggle"),jQuery(".tooltips-destroy").tooltip("destroy"),jQuery(".popovers").popover(),jQuery(".popovers-show").popover("show"),jQuery(".popovers-hide").popover("hide"),jQuery(".popovers-toggle").popover("toggle"),jQuery(".popovers-destroy").popover("destroy")}return{init:function(){b(),c(),a(),f(),e(),d()},initScrollBar:function(){jQuery(".mCustomScrollbar").mCustomScrollbar({theme:"minimal",scrollInertia:300,scrollEasing:"linear"})},initCounter:function(){jQuery(".counter").counterUp({delay:10,time:1e3})},initParallaxBg:function(){jQuery(window).load(function(){jQuery(".parallaxBg").parallax("50%",.2),jQuery(".parallaxBg1").parallax("50%",.4)})}}}(),MasterSliderShowcase3=function(){return{initMasterSliderShowcase3:function(){var a=new MasterSlider;a.control("arrows"),a.control("circletimer",{color:"#fff",stroke:9}),a.control("thumblist",{autohide:!1,dir:"h",type:"tabs",width:187.5,height:135,align:"bottom",space:0,margin:-12,hideUnder:992}),a.setup("masterslider",{width:1140,height:550,space:0,speed:10,preload:"all",view:"basic",autoplay:!0})}}}(),OwlBMKG=function(){return{initOwlPrakicuKota:function(){jQuery(document).ready(function(){var a=jQuery(".owl-prakicu-kota");a.owlCarousel({items:[5],itemsDesktop:[1200,4],itemsDesktopSmall:[992,3],itemsTablet:[600,2],itemsMobile:[479,1],autoPlay:5e3}),jQuery(".next-pk").click(function(){a.trigger("owl.next")}),jQuery(".prev-pk").click(function(){a.trigger("owl.prev")})})},initOwlKualitasUdara:function(){jQuery(document).ready(function(){var a=jQuery(".owl-kualitas-udara");a.owlCarousel({items:[4],itemsDesktop:[1200,3],itemsDesktopSmall:[992,3],itemsTablet:[600,2],itemsMobile:[479,2],autoPlay:5e3}),jQuery(".next-ku").click(function(){a.trigger("owl.next")}),jQuery(".prev-ku").click(function(){a.trigger("owl.prev")})})},initOwlPeringatanDini:function(){jQuery(document).ready(function(){var a=jQuery(".owl-peringatan-dini");a.owlCarousel({items:[1],itemsDesktop:[1200,1],itemsDesktopSmall:[992,1],itemsTablet:[600,1],itemsMobile:[479,1],autoPlay:5e3})})},initOwlBannerLayanan:function(){jQuery(document).ready(function(){var a=jQuery(".owl-banner-layanan");a.owlCarousel({items:[5],itemsDesktop:[1200,5],itemsDesktopSmall:[992,3],itemsTablet:[600,2],itemsMobile:[479,1],autoPlay:5e3})})}}}(),FancyBox=function(){return{initFancybox:function(){jQuery(".fancybox").fancybox({groupAttr:"data-rel",prevEffect:"fade",nextEffect:"fade",openEffect:"elastic",closeEffect:"fade",closeBtn:!0,helpers:{title:{type:"float"}}}),$(".fbox-modal").fancybox({maxWidth:800,maxHeight:600,fitToView:!1,width:"70%",height:"70%",autoSize:!1,closeClick:!1,closeEffect:"fade",openEffect:"elastic"})}}}();
+
+	/*lazyload*/!function(a,b){"function"==typeof define&&define.amd?define([],b):"object"==typeof exports?module.exports=b():a.LazyLoad=b()}(this,function(){function a(){r||(n={elements_selector:"img",container:window,threshold:300,throttle:50,data_src:"original",data_srcset:"original-set",class_loading:"loading",class_loaded:"loaded",skip_invisible:!0,callback_load:null,callback_error:null,callback_set:null,callback_processed:null},o=!!window.addEventListener,p=!!window.attachEvent,q=!!document.body.classList,r=!0)}function b(a,b,c){return o?void a.addEventListener(b,c):void(p&&(a.attachEvent("on"+b,function(a){return function(){c.call(a,window.event)}}(a)),a=null))}function c(a,b,c){return o?void a.removeEventListener(b,c):void(p&&a.detachEvent("on"+b,c))}function d(a,b,c){function d(){return window.innerWidth||l.documentElement.clientWidth||document.body.clientWidth}function e(){return window.innerHeight||l.documentElement.clientHeight||document.body.clientHeight}function f(a){return a.getBoundingClientRect().top+m-l.documentElement.clientTop}function g(a){return a.getBoundingClientRect().left+n-l.documentElement.clientLeft}function h(){var d;return d=b===window?e()+m:f(b)+b.offsetHeight,d<=f(a)-c}function i(){var e;return e=b===window?d()+window.pageXOffset:g(b)+d(),e<=g(a)-c}function j(){var d;return d=b===window?m:f(b),d>=f(a)+c+a.offsetHeight}function k(){var d;return d=b===window?n:g(b),d>=g(a)+c+a.offsetWidth}var l,m,n;return l=a.ownerDocument,m=window.pageYOffset||l.body.scrollTop,n=window.pageXOffset||l.body.scrollLeft,!(h()||j()||i()||k())}function e(){var a=new Date;return a.getTime()}function f(a,b){var c,d={};for(c in a)a.hasOwnProperty(c)&&(d[c]=a[c]);for(c in b)b.hasOwnProperty(c)&&(d[c]=b[c]);return d}function g(a){try{return Array.prototype.slice.call(a)}catch(b){var c,d=[],e=a.length;for(c=0;e>c;c++)d.push(a[c]);return d}}function h(a,b){return q?void a.classList.add(b):void(a.className+=(a.className?" ":"")+b)}function i(a,b){return q?void a.classList.remove(b):void(a.className=a.className.replace(new RegExp("(^|\\s+)"+b+"(\\s+|$)")," ").replace(/^\s+/,"").replace(/\s+$/,""))}function j(a,b){var c=a.parentElement;if("PICTURE"===c.tagName)for(var d=0;d<c.children.length;d++){var e=c.children[d];if("SOURCE"===e.tagName){var f=e.getAttribute("data-"+b);f&&e.setAttribute("srcset",f)}}}function k(a,b,c){var d=a.tagName,e=a.getAttribute("data-"+c);if("IMG"===d){j(a,b);var f=a.getAttribute("data-"+b);return f&&a.setAttribute("srcset",f),void(e&&a.setAttribute("src",e))}return"IFRAME"===d?void(e&&a.setAttribute("src",e)):void(a.style.backgroundImage="url("+e+")")}function l(a,b){return function(){return a.apply(b,arguments)}}function m(c){a(),this._settings=f(n,c),this._queryOriginNode=this._settings.container===window?document:this._settings.container,this._previousLoopTime=0,this._loopTimeout=null,this._handleScrollFn=l(this.handleScroll,this),b(window,"resize",this._handleScrollFn),this.update()}var n,o,p,q,r=!1;return m.prototype._showOnAppear=function(a){function d(){null!==e&&(e.callback_load&&e.callback_load(a),i(a,e.class_loading),h(a,e.class_loaded),c(a,"load",d))}var e=this._settings;("IMG"===a.tagName||"IFRAME"===a.tagName)&&(b(a,"load",d),b(a,"error",function(){c(a,"load",d),i(a,e.class_loading),e.callback_error&&e.callback_error(a)}),h(a,e.class_loading)),k(a,e.data_srcset,e.data_src),e.callback_set&&e.callback_set(a)},m.prototype._loopThroughElements=function(){var a,b,c=this._settings,e=this._elements,f=e?e.length:0,g=[];for(a=0;f>a;a++)b=e[a],c.skip_invisible&&null===b.offsetParent||d(b,c.container,c.threshold)&&(this._showOnAppear(b),g.push(a),b.wasProcessed=!0);for(;g.length>0;)e.splice(g.pop(),1),c.callback_processed&&c.callback_processed(e.length);0===f&&this._stopScrollHandler()},m.prototype._purgeElements=function(){var a,b,c=this._elements,d=c.length,e=[];for(a=0;d>a;a++)b=c[a],b.wasProcessed&&e.push(a);for(;e.length>0;)c.splice(e.pop(),1)},m.prototype._startScrollHandler=function(){this._isHandlingScroll||(this._isHandlingScroll=!0,b(this._settings.container,"scroll",this._handleScrollFn))},m.prototype._stopScrollHandler=function(){this._isHandlingScroll&&(this._isHandlingScroll=!1,c(this._settings.container,"scroll",this._handleScrollFn))},m.prototype.handleScroll=function(){var a,b,c;this._settings&&(b=e(),c=this._settings.throttle,0!==c?(a=c-(b-this._previousLoopTime),0>=a||a>c?(this._loopTimeout&&(clearTimeout(this._loopTimeout),this._loopTimeout=null),this._previousLoopTime=b,this._loopThroughElements()):this._loopTimeout||(this._loopTimeout=setTimeout(l(function(){this._previousLoopTime=e(),this._loopTimeout=null,this._loopThroughElements()},this),a))):this._loopThroughElements())},m.prototype.update=function(){this._elements=g(this._queryOriginNode.querySelectorAll(this._settings.elements_selector)),this._purgeElements(),this._loopThroughElements(),this._startScrollHandler()},m.prototype.destroy=function(){c(window,"resize",this._handleScrollFn),this._loopTimeout&&(clearTimeout(this._loopTimeout),this._loopTimeout=null),this._stopScrollHandler(),this._elements=null,this._queryOriginNode=null,this._settings=null},m});
+</script>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		App.init();
+		App.initCounter();
+		App.initParallaxBg();
+		MasterSliderShowcase3.initMasterSliderShowcase3();
+		OwlBMKG.initOwlKualitasUdara();
+		OwlBMKG.initOwlPrakicuKota();
+		OwlBMKG.initOwlPeringatanDini();
+		OwlBMKG.initOwlBannerLayanan();
+		FancyBox.initFancybox();
+	});
+	new LazyLoad();
+	
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-10685897-2', 'auto');
+	ga('send', 'pageview');
+</script>
+<script id="bmkg" src="https://livechat.on5.co.id/bmkg/livechat-loader.js" type="text/javascript"></script>
+<!--[if lt IE 9]>
+	<script type="text/javascript" src="https://www.bmkg.go.id/asset/plugins/respond.min.js"></script>
+	<script type="text/javascript" src="https://www.bmkg.go.id/asset/plugins/html5shiv.min.js"></script>
+	<script type="text/javascript" src="https://www.bmkg.go.id/asset/plugins/placeholder-IE-fixes.min.js"></script>
+<![endif]-->
+<!-- </body></html> -->
+</body>
+</html>
